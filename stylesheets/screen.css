@@ -794,8 +794,20 @@ button.navbar-toggler {
   border: 0;
 }
 
+@media (max-width: 575.98px) {
+  /* line 538, ../sass/screen.scss */
+  main section:nth-child(2) div div:nth-child(1), main section:nth-child(2) div div:nth-child(2), main section.container div.row div:nth-child(3) {
+    max-width: 80%;
+    margin: 0 auto 30px;
+  }
+
+  /* line 543, ../sass/screen.scss */
+  #title img {
+    width: 50%;
+  }
+}
 @media (min-width: 576px) {
-  /* line 540, ../sass/screen.scss */
+  /* line 552, ../sass/screen.scss */
   .container-fluid.storyTwo, .container-fluid.storyFive {
     background-position: right;
   }

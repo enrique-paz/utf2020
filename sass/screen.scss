@@ -532,7 +532,19 @@ button.navbar-toggler {
   outline:none;
   border:0;
 }
+//Extra small devices
+@media (max-width: 575.98px) {
 
+  main section:nth-child(2) div div:nth-child(1),main section:nth-child(2) div div:nth-child(2),main section.container div.row div:nth-child(3) {
+      max-width: 80%;
+      margin: 0 auto 30px;
+  }
+
+  #title img {
+    width: 50%;
+}
+
+ }
 
 
 // Small devices (landscape phones, 576px and up)
