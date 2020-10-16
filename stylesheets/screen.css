@@ -805,9 +805,50 @@ button.navbar-toggler {
   #title img {
     width: 50%;
   }
+
+  /* line 547, ../sass/screen.scss */
+  #yip div {
+    max-width: 100%;
+  }
+
+  /* line 551, ../sass/screen.scss */
+  main section:nth-child(4) div.container {
+    padding: 40px 30px 60px;
+  }
+
+  /* line 554, ../sass/screen.scss */
+  #photo7 {
+    background-position: center;
+  }
+
+  /* line 557, ../sass/screen.scss */
+  #photo8 {
+    background-position: center;
+  }
+
+  /* line 560, ../sass/screen.scss */
+  .container-fluid.storyTwo {
+    background-position: center right;
+  }
+
+  /* line 563, ../sass/screen.scss */
+  .container-fluid.storyFive {
+    background-position: right center;
+  }
+
+  /* line 566, ../sass/screen.scss */
+  footer h3 {
+    margin: 2rem 0;
+  }
+
+  /* line 569, ../sass/screen.scss */
+  footer {
+    text-align: center;
+    padding: 2.5rem 4rem;
+  }
 }
 @media (min-width: 576px) {
-  /* line 552, ../sass/screen.scss */
+  /* line 579, ../sass/screen.scss */
   .container-fluid.storyTwo, .container-fluid.storyFive {
     background-position: right;
   }
