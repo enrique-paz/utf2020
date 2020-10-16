@@ -332,14 +332,14 @@ div.modal-body section:nth-child(2) p {
 #presltr img,#utpresltr img {
   display:block;
 }
-#presChair {
+#presChair, #utpres {
   padding:1.5rem;
 }
-#presChair p {
+#presChair p, #utpres p {
   font-size:1.2rem;
     color:$midnight;
 }
-#presChair p:nth-child(odd){
+#presChair p:nth-child(odd),#utpres p:nth-child(odd){
   font-weight:$font-black;
   margin-top:15px;
 }

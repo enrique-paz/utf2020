@@ -521,18 +521,18 @@ div.modal-body section:nth-child(2) p {
 }
 
 /* line 335, ../sass/screen.scss */
-#presChair {
+#presChair, #utpres {
   padding: 1.5rem;
 }
 
 /* line 338, ../sass/screen.scss */
-#presChair p {
+#presChair p, #utpres p {
   font-size: 1.2rem;
   color: #003E7E;
 }
 
 /* line 342, ../sass/screen.scss */
-#presChair p:nth-child(odd) {
+#presChair p:nth-child(odd), #utpres p:nth-child(odd) {
   font-weight: 900;
   margin-top: 15px;
 }
