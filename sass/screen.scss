@@ -1,0 +1,558 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "base";
+//core styles
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $font;
+  background-color:white;
+  width:100vw;
+  height:100vh;
+  overflow-x: hidden;
+}
+h1 {
+  font-size:32px;
+  text-transform: uppercase;
+  margin:2.56% 0;
+  text-align: left;
+}
+h1 span {
+  color:$gold;
+  font-weight:$font-black;
+}
+h2 {
+  font-size:40px;
+  color:$midnight;
+  font-weight:$font-black;
+  text-transform: uppercase;
+  margin:20px 0;
+}
+h3 {
+  color:$midnight;
+  font-size:40px;
+}
+h4 {
+  color:white;
+  font-size:22px;
+  font-weight:$font-black;
+  margin:20px 0;
+}
+strong {
+  font-weight:$font-black;
+}
+em {
+  font-style: italic;
+}
+button.btn:focus {
+  outline:0 !important;
+  box-shadow:none;
+}
+button[id='finance']{
+  margin-top:1rem;
+}
+button.btn-lg.btn-outline-primary {
+  color:$midnight;
+  border-style:solid;
+}
+button.btn-lg.btn-outline-primary:hover {
+  color:white;
+}
+button.btn-primary {
+background-color:$azure;
+border-color:$azure;
+}
+button.btn-outline-primary {
+  color:$gold;
+  border-color:$azure;
+background-color:transparent;
+}
+button.btn-primary:hover,button.btn-outline-primary:hover{
+  background-color:$midnight;
+  border-color:$midnight;
+}
+.navbar {
+  padding:.5rem 0;
+}
+
+//main section styles
+#title {
+  margin-top:8rem;
+}
+#title img {
+  width:30%;
+  height:auto;
+}
+main.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  width:100vw;
+}
+main section:nth-child(1) {
+  min-height:640px;
+  background-image:url(../images/main_bkg.jpg);
+  background-position:center;
+  background-size:cover;
+  color:white;
+  padding-top:1.8rem;
+}
+main section:nth-child(2){
+  min-height:440px;
+  padding-top:100px;
+}
+main a {
+  text-decoration:none;
+  color:white;
+}
+main a:hover {
+  color:$gold;
+  text-decoration:none;
+}
+#links {
+  text-align: right;
+      padding-right: 2rem;
+}
+#links a {
+  color:$gold;
+}
+//main styles
+main {
+  height:100vh;
+  width:100vw;
+position:absolute;
+}
+main section:nth-child(2) div div:nth-child(1) {
+  border-top:$midnight 2px solid;
+  @include box-shadow($medium 1px 0px 3px);
+  padding-top:20px;
+  margin-right:15px;
+  min-height:273px;
+}
+main section:nth-child(2) div div:nth-child(1) a {
+  text-decoration: none;
+  color:$medium;
+  margin:20px 0;
+  display:block;
+}
+main section:nth-child(2) div div:nth-child(2) {
+  border-top:$gold 2px solid;
+  @include box-shadow($medium 1px 0px 3px);
+  padding-top:20px;
+  margin-right:40px;
+  min-height:273px;
+}
+main section:nth-child(2) div div:nth-child(2) a {
+  color:$midnight;
+}
+main section:nth-child(4) div.container {
+  color:$midnight;
+  font-size:22px;
+  line-height: 36px;
+  padding:40px 0 60px;
+}
+main section:nth-child(4)
+{
+    background-color:$azure;
+}
+main section.container div.row div:nth-child(3) h3 {
+  margin-bottom:20px;
+}
+main section.container div.row div:nth-child(3) {
+  padding:20px;
+  color:$medium;
+  font-size:20px;
+}
+#about ul {
+  list-style-type: disc;
+  margin-left:1.5rem;
+}
+#about h4:nth-child(2) {
+  font-weight: normal;
+  color:$midnight;
+}
+//year in photos
+section#yip.container-fluid {
+  padding-right: 0;
+}
+#yip {
+  padding-top:1.5rem;
+  //background-color:#CAD9E1;
+  min-height:unset;
+  margin:0;
+}
+#yip div {
+  border-top:1.5px solid white;
+  border-bottom:1.5px solid white;
+  box-sizing: border-box;
+  box-shadow:none;
+  margin:0;
+}
+#yip p {
+  background-color:$azure;
+  color:$midnight;
+  font-size:1rem;
+  padding:1rem;
+}
+#yip p > em {
+  color:white;
+  font-size:.8em;
+  display:block;
+  margin-top:10px;
+}
+#yip h3 {
+  color:$midnight;
+  padding-bottom:1rem;
+  font-size:2rem;
+}
+#photo1 {
+  background-image:url(../images/yip/centennial_mall.jpg);
+  background-size:cover;
+  background-position:center 0;
+  padding:2rem 1rem;
+  min-height:400px;
+}
+#photo2 {
+  //background-image:url(../images/yip/wedding_couple.jpg);
+  background-size:cover;
+  background-position:center 0;
+  padding:2rem 1rem;
+}
+#photo3 {
+  background-image:url(../images/yip/wedding_couple.jpg);
+  background-size:cover;
+  background-position:center 0;
+  padding:2rem 1rem;
+}
+#photo4 {
+  background-image:url(../images/yip/clothesline.jpg);
+  background-size:cover;
+  background-position:center 0;
+  padding:2rem 1rem;
+}
+#photo5 {
+ background-image:url(../images/yip/parade.jpg);
+  background-size:cover;
+  background-position:center;
+  padding:2rem 1rem;
+}
+#photo6 {
+  background-image:url(../images/yip/fall.jpg);
+  background-size:cover;
+  background-position:bottom;
+  padding:2rem 1rem;
+  min-height:500px;
+}
+#photo7 {
+  background-image:url(../images/yip/jazmine.jpg);
+  background-size:cover;
+  background-position:bottom;
+  padding:2rem 1rem;
+
+}
+#photo8 {
+  background-image:url(../images/yip/cap_toss.jpg);
+  background-size:cover;
+  background-position:0px -175px;
+  padding:2rem 1rem;
+
+}
+#photo9 {
+  background-image:url(../images/yip/chalk.jpg);
+  background-size:cover;
+  background-position:bottom left;
+  padding:2rem 1rem;
+min-height:400px;
+}
+#photo10 {
+  background-image:url(../images/yip/awad.jpg);
+  background-size:cover;
+  background-position:bottom;
+  padding:2rem 1rem;
+  min-height:400px;
+}
+
+//footer stylesheet
+footer {
+  background-color:$gold;
+  color:$midnight;
+  padding:2.5rem 0;
+}
+footer h4 {
+  color:$midnight;
+}
+footer a {
+  text-decoration: none;
+  color:$midnight;
+}
+#social img {
+  max-width:3%;
+  height:auto;
+  vertical-align: middle;
+  display:inline;
+}
+//letter modal stylesheet
+#presltr,#yourGifts {
+    background-color: rgba(255,255,255,.2);
+}
+.modal-header {
+  background-color:$azure;
+}
+#presltr div section:nth-child(1) button {
+  border:1px $gold solid;
+  background-color:transparent;
+  font-size:24px;
+  padding:5px 20px;
+}
+div.modal-body{
+  padding:0;
+}
+div.modal-body section:nth-child(1) {
+  background-color:$gold;
+  min-height:auto;
+}
+div.modal-body section:nth-child(2) {
+  padding:40px 60px;
+}
+div.modal-body section:nth-child(2) p {
+  margin:20px 0;
+  font-size:1.5rem;
+  line-height:2rem;
+  color:$midnight;
+}
+#presltr h4, #utpresltr h4 {
+  color:$midnight;
+  font-size:48px;
+  text-transform:uppercase;
+  margin-bottom:60px;
+}
+#presltr img,#utpresltr img {
+  display:block;
+}
+#presChair {
+  padding:1.5rem;
+}
+#presChair p {
+  font-size:1.2rem;
+    color:$midnight;
+}
+#presChair p:nth-child(odd){
+  font-weight:$font-black;
+  margin-top:15px;
+}
+div.modal-header button.close {
+  border-color:$gold;
+  border-style:solid;
+  border-width:3px;
+  text-shadow:none;
+  padding: .5rem 1.5rem;
+  margin:.25rem 0;
+  opacity:1;
+}
+img[alt="Mark Leutke"],img[alt="Brenda S. Lee"],img[alt="Gregory Postel"]{
+  max-width:25%;
+  height:auto;
+}
+
+//your Gifts
+#yourGifts section {
+  background-color:$azure;
+}
+#yourGifts h4 {
+  margin:0;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+#yourGifts div.modal-body section:nth-child(1) {
+ padding:40px 60px;
+}
+#yourGifts div.modal-body section:nth-child(1) p {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: $midnight;
+}
+#yourGifts div.modal-body section:nth-child(1) h5 {
+  color:white;
+  font-size:1.75rem;
+}
+#yourGifts div.modal-body section:nth-child(1) span {
+  color:white;
+  font-weight:$font-black;
+}
+#yourGifts div.modal-body section button  {
+  background-color: $gold;
+  font-size: 2rem;
+  color:$midnight;
+  font-weight:normal;
+}
+// financials section styles
+#financials {
+  width:100vw;
+  height:100vh;
+  position:fixed;
+  left:100%;
+  top:0;
+  background-color:white;
+  overflow-y: auto;
+  padding:0;
+}
+.finHeader {
+  background-color:$medium;
+}
+#financials h2 {
+  color:white;
+  font-size:3rem;
+  margin:0 0 3rem 0;
+}
+#financials h2 span {
+  color:$gold;
+}
+#financials p {
+  color:white;
+    font-size:1.2rem;
+    margin:1rem 0;
+}
+#financials button {
+    border-color: #FFD200;
+    border-style: solid;
+    border-width: 3px;
+    text-shadow: none;
+    color:$midnight;
+    padding: .5rem 1.5rem;
+    margin: .5rem 0;
+    opacity:1;
+}
+#finTotal p span:nth-child(2) {
+  color:$gold;
+}
+.nav-tabs .nav-link {
+    border:none;
+    background-color:$azure;
+    border-radius: 0;
+    color:white;
+    font-size:1.75rem;
+    text-align: center;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: $midnight;
+    background-color: #fff;
+    border:none;
+}
+p#legal {
+  color:$midnight;
+  font-size:.8rem;
+  line-height: 1rem;
+  margin:inherit;
+}
+.tab-pane a {
+  color:$medium;
+  text-decoration: none;
+  padding:.5rem 0;
+}
+.tab-pane div {
+  padding:1rem;
+}
+#myTab {
+  margin-top:10px;
+}
+//stories
+#stories div.container-fluid {
+  min-height:300px;
+}
+#stories .container h3 {
+  background-color:$midnight;
+  height:100px;
+  width:34.375rem
+}
+#stories .container h3 span {
+  color:white;
+  font-size:3rem;
+  font-weight:normal;
+}
+#stories .container button {
+  color:white;
+  text-align:left;
+  font-size:1.5rem;
+  line-height:1.5rem;
+  outline:none;
+  border:0;
+}
+#stories .container p {
+  margin:20px 0;
+  line-height:1.5rem;
+  font-size:1.2rem;
+  color:$midnight;
+}
+div.container-fluid.call-out {
+  background-color: $azure;
+  min-height:initial !important;
+  padding:30px 0;
+  font-size: 1.2rem;
+}
+section.container-fluid {
+  padding-left:0;
+  padding-right:0;
+}
+.container-fluid.storyOne {
+  background-image:url(../images/student-success.gif);
+  background-size:cover;
+  background-position:center;
+}
+.container-fluid.storyTwo {
+  background-image:url(../images/rtr-fund.gif);
+  background-size:cover;
+  background-position:center;
+}
+.container-fluid.storyThree {
+  background-image:url(../images/tech-graduate.gif);
+  background-size:cover;
+  background-position:center;
+}
+.container-fluid.storyFour {
+  background-image:url(../images/research-growth.gif);
+  background-size:cover;
+  background-position:center;
+}
+.container-fluid.storyFive {
+  background-image:url(../images/emir-moore.gif);
+  background-size:cover;
+  background-position:0 center;
+}
+.container-fluid.storySix {
+  background-image:url(../images/athletics-gpa.gif);
+  background-size:cover;
+  background-position:center;
+}
+button.navbar-toggler {
+  outline:none;
+  border:0;
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .container-fluid.storyTwo,.container-fluid.storyFive {
+    background-position:right;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+ }

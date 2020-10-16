@@ -1,0 +1,275 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "base";
+* {
+  @include flex-wrap(wrap);
+  margin:0;
+  padding:0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $font;
+  background-color:white;
+  width:100vw;
+  height:100vh;
+  overflow-x: hidden;
+}
+nav {
+  @include display-flex;
+  @include justify-content(space-between);
+  @include align-items(center);
+}
+nav ul {
+  @include display-flex;
+  @include justify-content(space-between);
+  @include flex(.7);
+}
+nav ul a {
+  text-decoration:none;
+  color:white;
+  font-size:18px;
+}
+nav ul a:hover {
+  color:$gold;
+}
+main {
+  min-height:640px;
+  background-image:url(../images/main_bkg.jpg);
+  background-position:center;
+  background-size:cover;
+  color:white;
+  padding-top:50px;
+}
+main div {
+  max-width:$grid;
+  width:90%;
+  margin:0 auto;
+}
+main div:nth-child(1){
+  min-height:320px;
+  text-align: right;
+}
+main div:nth-child(2) button{
+  background-color:$azure;
+  color:white;
+  border:$azure solid 1px;
+  padding:10px 30px;
+  margin-top:20px;
+}
+main div:nth-child(2) button:nth-child(3){
+  background-color:transparent;
+  color:$gold;
+  border:$azure solid 1px;
+}
+main a {
+  text-decoration:none;
+  color:$gold;
+}
+main button {
+  text-align: left;
+}
+main div:nth-child(2) button:hover {
+  background-color:$gold;
+  color:$midnight;
+  cursor: pointer;
+}
+section {
+  max-width:$grid;
+  margin:0 auto;
+  background-color:white;
+}
+section:nth-child(2){
+  min-height:440px;
+  padding-top:100px;
+  @include display-flex;
+  @include align-items(flex-start);
+}
+section:nth-child(2) a {
+  display:block;
+}
+section:nth-child(2) div:nth-child(2) {
+  border-top:$midnight 2px solid;
+  @include box-shadow($medium 1px 0px 3px);
+  padding:20px;
+  @include flex(.3);
+  margin-right:15px;
+  min-height:273px;
+}
+section:nth-child(2) div:nth-child(2) a {
+  text-decoration: none;
+  color:$medium;
+  margin:20px 0;
+}
+section:nth-child(2) div:nth-child(3) {
+  border-top:$gold 2px solid;
+  @include box-shadow($medium 1px 0px 3px);
+  padding:20px;
+  @include flex(.3);
+  margin-right:40px;
+  min-height:273px;
+}
+section:nth-child(2) div:nth-child(4) {
+  padding:20px;
+  color:$medium;
+  font-size:20px;
+}
+section:nth-child(2) div:nth-child(4) h3 {
+  margin-bottom:20px;
+}
+section:nth-child(2) div:nth-child(4) button{
+  background-color:transparent;
+  color:$midnight;
+  border:$azure solid 1px;
+  padding:10px 30px;
+  margin-top:20px;
+}
+section:nth-child(4) {
+  background-color:$azure;
+  max-width:none;
+  color:$midnight;
+  font-size:22px;
+  line-height: 36px;
+  padding:40px 0 60px;
+}
+section:nth-child(4) div {
+  max-width: $grid;
+  margin:0 auto;
+}
+section:nth-child(4) h2 {
+  color:white;
+}
+section:nth-child(4) h4:nth-child(2) {
+  font-weight:normal;
+  color:$midnight;
+  margin:60px 0 20px;;
+}
+footer {
+  background-color:$gold;
+  padding:40px 0;
+  color:$midnight;
+}
+footer h4 {
+  color:$midnight;
+}
+footer a {
+  text-decoration: none;
+  color:$midnight;
+}
+footer > div {
+  @include display-flex;
+  max-width:$grid;
+  margin:0 auto;
+  width:90%;
+}
+footer > div div:nth-child(1) {
+  @include flex(.5);
+  padding:30px 60px;
+}
+img {
+  max-width:100%;
+  height:auto;
+}
+h1 {
+  font-size:66px;
+  text-transform: uppercase;
+  font-weight:$font-black;
+  margin-top:2.56%;
+  text-align: left;
+}
+h1 span {
+  color:$gold;
+}
+h2 {
+  font-size:40px;
+  color:$midnight;
+  font-weight:$font-black;
+  text-transform: uppercase;
+  margin:20px 0;
+}
+h3 {
+  color:$midnight;
+  font-size:40px;
+}
+h4 {
+  color:white;
+  font-size:22px;
+  font-weight:$font-black;
+  margin:20px 0;
+}
+strong {
+  font-weight:$font-black;
+}
+/* financials slider */
+a[name="financials"]{
+  cursor: pointer;
+}
+/* finncials and letters ui */
+#home {
+  width:100vw;
+  top:0;
+  bottom:0;
+  position:absolute;
+}
+#financials {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:100%;
+  width:100vw;
+  height:100vh;
+  min-height:100%;
+  overflow: visible;
+  padding:20px;
+}
+.slide {
+  overflow-x: visible;
+}/*
+#presltr {
+  position:absolute;
+  z-index:100;
+  top:0;
+  right:0;
+  left:0;
+  width:100%;
+  @include background-image(linear-gradient(to bottom right, white, transparent));
+
+}*/
+#presltr div {
+  max-width:1140px;
+  width:85%;
+  margin:0 auto;
+  background-color:white;
+}
+#presltr div section:nth-child(1) {
+  background-color:$azure;
+  @include display-flex;
+  @include justify-content(flex-end);
+  padding:10px 20px;
+}
+#presltr div section:nth-child(1) button {
+  border:1px $gold solid;
+  background-color:transparent;
+  font-size:24px;
+  padding:5px 20px;
+}
+#presltr div section:nth-child(2) {
+  background-color:$gold;
+  min-height:auto;
+}
+#presltr div section:nth-child(3) {
+  padding:40px 60px;
+}
+#presltr div section:nth-child(3) p {
+  margin:20px 0;
+}
+#presltr div section:nth-child(3) h4 {
+  color:$midnight;
+  font-size:48px;
+  text-transform:uppercase;
+  margin-bottom:60px;
+}

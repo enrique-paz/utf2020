@@ -1,0 +1,461 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap");
+/* line 5, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*base styles*/
+/* line 7, ../sass/bu.scss */
+* {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, ../sass/bu.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 15, ../sass/bu.scss */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* line 22, ../sass/bu.scss */
+nav {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* line 27, ../sass/bu.scss */
+nav ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex: 0.7;
+  flex: 0.7;
+}
+
+/* line 32, ../sass/bu.scss */
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* line 37, ../sass/bu.scss */
+nav ul a:hover {
+  color: #FFD200;
+}
+
+/* line 40, ../sass/bu.scss */
+main {
+  min-height: 640px;
+  background-image: url(../images/main_bkg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-top: 50px;
+}
+
+/* line 48, ../sass/bu.scss */
+main div {
+  max-width: 1140px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 53, ../sass/bu.scss */
+main div:nth-child(1) {
+  min-height: 320px;
+  text-align: right;
+}
+
+/* line 57, ../sass/bu.scss */
+main div:nth-child(2) button {
+  background-color: #3BB2F1;
+  color: white;
+  border: #3BB2F1 solid 1px;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+/* line 64, ../sass/bu.scss */
+main div:nth-child(2) button:nth-child(3) {
+  background-color: transparent;
+  color: #FFD200;
+  border: #3BB2F1 solid 1px;
+}
+
+/* line 69, ../sass/bu.scss */
+main a {
+  text-decoration: none;
+  color: #FFD200;
+}
+
+/* line 73, ../sass/bu.scss */
+main button {
+  text-align: left;
+}
+
+/* line 76, ../sass/bu.scss */
+main div:nth-child(2) button:hover {
+  background-color: #FFD200;
+  color: #003E7E;
+  cursor: pointer;
+}
+
+/* line 81, ../sass/bu.scss */
+section {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* line 86, ../sass/bu.scss */
+section:nth-child(2) {
+  min-height: 440px;
+  padding-top: 100px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+/* line 92, ../sass/bu.scss */
+section:nth-child(2) a {
+  display: block;
+}
+
+/* line 95, ../sass/bu.scss */
+section:nth-child(2) div:nth-child(2) {
+  border-top: #003E7E 2px solid;
+  -moz-box-shadow: #737571 1px 0px 3px;
+  -webkit-box-shadow: #737571 1px 0px 3px;
+  box-shadow: #737571 1px 0px 3px;
+  padding: 20px;
+  -webkit-flex: 0.3;
+  flex: 0.3;
+  margin-right: 15px;
+  min-height: 273px;
+}
+
+/* line 103, ../sass/bu.scss */
+section:nth-child(2) div:nth-child(2) a {
+  text-decoration: none;
+  color: #737571;
+  margin: 20px 0;
+}
+
+/* line 108, ../sass/bu.scss */
+section:nth-child(2) div:nth-child(3) {
+  border-top: #FFD200 2px solid;
+  -moz-box-shadow: #737571 1px 0px 3px;
+  -webkit-box-shadow: #737571 1px 0px 3px;
+  box-shadow: #737571 1px 0px 3px;
+  padding: 20px;
+  -webkit-flex: 0.3;
+  flex: 0.3;
+  margin-right: 40px;
+  min-height: 273px;
+}
+
+/* line 116, ../sass/bu.scss */
+section:nth-child(2) div:nth-child(4) {
+  padding: 20px;
+  color: #737571;
+  font-size: 20px;
+}
+
+/* line 121, ../sass/bu.scss */
+section:nth-child(2) div:nth-child(4) h3 {
+  margin-bottom: 20px;
+}
+
+/* line 124, ../sass/bu.scss */
+section:nth-child(2) div:nth-child(4) button {
+  background-color: transparent;
+  color: #003E7E;
+  border: #3BB2F1 solid 1px;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+/* line 131, ../sass/bu.scss */
+section:nth-child(4) {
+  background-color: #3BB2F1;
+  max-width: none;
+  color: #003E7E;
+  font-size: 22px;
+  line-height: 36px;
+  padding: 40px 0 60px;
+}
+
+/* line 139, ../sass/bu.scss */
+section:nth-child(4) div {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 143, ../sass/bu.scss */
+section:nth-child(4) h2 {
+  color: white;
+}
+
+/* line 146, ../sass/bu.scss */
+section:nth-child(4) h4:nth-child(2) {
+  font-weight: normal;
+  color: #003E7E;
+  margin: 60px 0 20px;
+}
+
+/* line 151, ../sass/bu.scss */
+footer {
+  background-color: #FFD200;
+  padding: 40px 0;
+  color: #003E7E;
+}
+
+/* line 156, ../sass/bu.scss */
+footer h4 {
+  color: #003E7E;
+}
+
+/* line 159, ../sass/bu.scss */
+footer a {
+  text-decoration: none;
+  color: #003E7E;
+}
+
+/* line 163, ../sass/bu.scss */
+footer > div {
+  display: -webkit-flex;
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* line 169, ../sass/bu.scss */
+footer > div div:nth-child(1) {
+  -webkit-flex: 0.5;
+  flex: 0.5;
+  padding: 30px 60px;
+}
+
+/* line 173, ../sass/bu.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 177, ../sass/bu.scss */
+h1 {
+  font-size: 66px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 2.56%;
+  text-align: left;
+}
+
+/* line 184, ../sass/bu.scss */
+h1 span {
+  color: #FFD200;
+}
+
+/* line 187, ../sass/bu.scss */
+h2 {
+  font-size: 40px;
+  color: #003E7E;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+/* line 194, ../sass/bu.scss */
+h3 {
+  color: #003E7E;
+  font-size: 40px;
+}
+
+/* line 198, ../sass/bu.scss */
+h4 {
+  color: white;
+  font-size: 22px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+/* line 204, ../sass/bu.scss */
+strong {
+  font-weight: 900;
+}
+
+/* financials slider */
+/* line 208, ../sass/bu.scss */
+a[name="financials"] {
+  cursor: pointer;
+}
+
+/* finncials and letters ui */
+/* line 212, ../sass/bu.scss */
+#home {
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+/* line 218, ../sass/bu.scss */
+#financials {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100%;
+  overflow: visible;
+  padding: 20px;
+}
+
+/* line 229, ../sass/bu.scss */
+.slide {
+  overflow-x: visible;
+}
+
+ /*
+#presltr {
+  position:absolute;
+  z-index:100;
+  top:0;
+  right:0;
+  left:0;
+  width:100%;
+  @include background-image(linear-gradient(to bottom right, white, transparent));
+
+}*/
+/* line 242, ../sass/bu.scss */
+#presltr div {
+  max-width: 1140px;
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* line 248, ../sass/bu.scss */
+#presltr div section:nth-child(1) {
+  background-color: #3BB2F1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+/* line 254, ../sass/bu.scss */
+#presltr div section:nth-child(1) button {
+  border: 1px #FFD200 solid;
+  background-color: transparent;
+  font-size: 24px;
+  padding: 5px 20px;
+}
+
+/* line 260, ../sass/bu.scss */
+#presltr div section:nth-child(2) {
+  background-color: #FFD200;
+  min-height: auto;
+}
+
+/* line 264, ../sass/bu.scss */
+#presltr div section:nth-child(3) {
+  padding: 40px 60px;
+}
+
+/* line 267, ../sass/bu.scss */
+#presltr div section:nth-child(3) p {
+  margin: 20px 0;
+}
+
+/* line 270, ../sass/bu.scss */
+#presltr div section:nth-child(3) h4 {
+  color: #003E7E;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
