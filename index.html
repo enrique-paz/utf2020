@@ -55,14 +55,14 @@
                 <div class="col-sm-3">
                   <h3>Letters</h3>
                   <a href="javascript:void(0)" data-toggle="modal" data-target="#presltr">Letter from the President and Board Chair</a>
-                  <a href="javascript:void(0)" data-toggle="modal" data-target="#utpresltr">Letter from the University of Toledo President</a>
+                  <a href="javascript:void(0)" data-toggle="modal" data-target="#utpresltr">Letter from the University of Toledo Interim President</a>
                 </div>
                 <div class="col-sm-3">
                   <h3><a href="javascript:void(0)" data-toggle="modal" data-target="#yourGifts">Your Gifts - Your Way</a></h3>
                 </div>
                 <div class="col-sm-3">
                   <h3>2020 Financials</h3>
-                  <p>The Year in review</p>
+                  <p>The Year in Review</p>
                   <p>July 1, 2019 – June 30, 2020</p>
                   <button type="button" id="finance" class="btn btn-lg btn-outline-primary">View Financials</button>
                 </div>
@@ -79,7 +79,12 @@
 <!--year in photos-->
 <section id="yip" class="container-fluid">
 
-  <h3 class="container">A Year in Photos</h3>
+<div class="container-fluid azure">
+  <div class="container yipDesc d-flex justify-content-start align-items-center">
+    <h3>A Year in Photos</h3><p>UToledo alumni, students, faculty andstaff shared memorablemoments on socialmedia in 2019-20.</p>
+  </div>
+</div>
+
   <div class="row">
     <div class="flex-fill d-flex align-items-end" id="photo1">
 <p class="col-3">A group of students posed in the Centennial Mall sunshine on July 10, 2019. <em>Photo by Dr. Kasumi Yamazaki, associate professor of Japanese.</em></p>
@@ -137,7 +142,7 @@
                 <button class="btn" type="button" data-toggle="collapse" data-target="#storyOne" aria-expanded="true" aria-controls="storyOne">
                   UToledo Celebrates Record Levels of Student Success, Graduation and Retention
                 </button>
-                <span class="material-icons">
+                <span class="material-icons" data-toggle="collapse" data-target="#storyOne">
 keyboard_arrow_right
 </span>
                 </h3>
@@ -172,7 +177,7 @@ keyboard_arrow_right
               <button class="btn" type="button" data-toggle="collapse" data-target="#storyTwo" aria-expanded="true" aria-controls="storyTwo">
                 Rockets Respond to Pandemic with Emergency Aid for Students in Need
               </button>
-              <span class="material-icons">
+              <span class="material-icons" data-toggle="collapse" data-target="#storyTwo">
             keyboard_arrow_right
             </span>
               </h3>
@@ -201,6 +206,41 @@ keyboard_arrow_right
           </div>
           <!--story two-->
 
+          <!--storyfour-->
+          <div class="container-fluid storyFour d-flex align-items-end">
+          <div class="container d-flex align-items-end">
+            <h3 class="d-flex align-items-end">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#storyFour" aria-expanded="true" aria-controls="storyFour">
+              A Reputation for Collaborative, Groundbreaking Research Continues to Grow
+            </button>
+            <span class="material-icons" data-toggle="collapse" data-target="#storyFour">
+  keyboard_arrow_right
+  </span>
+            </h3>
+          </div>
+        </div>
+          <!--story-->
+          <div id="storyFour" class="collapse" aria-labelledby="storyFour" data-parent="#stories">
+            <div class="container-fluid call-out">
+              <p class="container">Hear Dr. Michael Weintraub talk about partnering with the U.S. Department of Energy to protect Lake Erie at <a href="http://utfoundation.org/erie">utfoundation.org/erie</a>.</p>
+            </div>
+            <div class="container">
+              <p>Research is a critical focus of The University of Toledo’s mission to discover solutions to global challenges and drive economic development in northwest Ohio.</p>
+
+  <p>The University’s national profile continues to thrive as research dollars to date are more than $54.2 million, an increase of 17% over all of fiscal 2019 and 41.5% higher than its research awards four years ago.</p>
+
+  <p>Thanks to its researchers and supporters, UToledo has been able to secure significantly more competitive national funding from agencies such as the National Institutes of Health (NIH), the National Science Foundation, the U.S. Department of Energy, and National Aeronautics Space Administration.</p>
+
+  <p>Research grants from the NIH alone jumped 53% over the last five years, going from more than $9 million in 2016 to more than $14 million so far in 2020 awarded to the colleges of Medicine and Life Sciences; Engineering; Natural Sciences and Mathematics; and Pharmacy and Pharmaceutical Sciences.</p>
+
+  <p>UToledo’s discoveries span a wide range of areas: its astrophysics faculty continue to explore, answering questions about the universe’s origins; its humanities scholars examine writings that offer insight into the human spirit; and its artists produce works that inspire the soul.</p>
+
+  <p>Rockets conduct research across the full range of disciplines found at the nation’s largest universities. And your support allows UToledo faculty to build cross-functional teams that attack the world’s biggest challenges.</p>
+  <p><em>Above: Dr. Randall Ellingson, professor in the UToledo Department of Physics and Astronomy</em></p>
+            </div>
+        </div>
+        <!--story four-->
+
           <!--storythree-->
           <div class="container-fluid storyThree d-flex align-items-end">
           <div class="container d-flex align-items-end">
@@ -208,7 +248,7 @@ keyboard_arrow_right
             <button class="btn" type="button" data-toggle="collapse" data-target="#storyThree" aria-expanded="true" aria-controls="storyThree">
               Tech Graduate Hopes to Break Gender Barriers in Computer Science
             </button>
-            <span class="material-icons">
+            <span class="material-icons" data-toggle="collapse" data-target="#storyThree">
 keyboard_arrow_right
 </span>
             </h3>
@@ -236,41 +276,6 @@ keyboard_arrow_right
         </div>
         <!--story three-->
 
-        <!--storyfour-->
-        <div class="container-fluid storyFour d-flex align-items-end">
-        <div class="container d-flex align-items-end">
-          <h3 class="d-flex align-items-end">
-          <button class="btn" type="button" data-toggle="collapse" data-target="#storyFour" aria-expanded="true" aria-controls="storyFour">
-            A Reputation for Collaborative, Groundbreaking Research Continues to Grow
-          </button>
-          <span class="material-icons">
-keyboard_arrow_right
-</span>
-          </h3>
-        </div>
-      </div>
-        <!--story-->
-        <div id="storyFour" class="collapse" aria-labelledby="storyFour" data-parent="#stories">
-          <div class="container-fluid call-out">
-            <p class="container">Hear Dr. Michael Weintraub talk about partnering with the U.S. Department of Energy to protect Lake Erie at <a href="http://utfoundation.org/erie">utfoundation.org/erie</a>.</p>
-          </div>
-          <div class="container">
-            <p>Research is a critical focus of The University of Toledo’s mission to discover solutions to global challenges and drive economic development in northwest Ohio.</p>
-
-<p>The University’s national profile continues to thrive as research dollars to date are more than $54.2 million, an increase of 17% over all of fiscal 2019 and 41.5% higher than its research awards four years ago.</p>
-
-<p>Thanks to its researchers and supporters, UToledo has been able to secure significantly more competitive national funding from agencies such as the National Institutes of Health (NIH), the National Science Foundation, the U.S. Department of Energy, and National Aeronautics Space Administration.</p>
-
-<p>Research grants from the NIH alone jumped 53% over the last five years, going from more than $9 million in 2016 to more than $14 million so far in 2020 awarded to the colleges of Medicine and Life Sciences; Engineering; Natural Sciences and Mathematics; and Pharmacy and Pharmaceutical Sciences.</p>
-
-<p>UToledo’s discoveries span a wide range of areas: its astrophysics faculty continue to explore, answering questions about the universe’s origins; its humanities scholars examine writings that offer insight into the human spirit; and its artists produce works that inspire the soul.</p>
-
-<p>Rockets conduct research across the full range of disciplines found at the nation’s largest universities. And your support allows UToledo faculty to build cross-functional teams that attack the world’s biggest challenges.</p>
-<p><em>Above: Dr. Randall Ellingson, professor in the UToledo Department of Physics and Astronomy</em></p>
-          </div>
-      </div>
-      <!--story four-->
-
       <!--storyfive-->
       <div class="container-fluid storyFive d-flex align-items-end">
       <div class="container d-flex align-items-end">
@@ -278,7 +283,7 @@ keyboard_arrow_right
         <button class="btn" type="button" data-toggle="collapse" data-target="#storyFive" aria-expanded="true" aria-controls="storyFive">
           Pioneering Business Graduate Demonstrates Power of Scholarships
         </button>
-        <span class="material-icons">
+        <span class="material-icons" data-toggle="collapse" data-target="#storyFive">
 keyboard_arrow_right
 </span>
         </h3>
@@ -290,7 +295,7 @@ keyboard_arrow_right
           <p class="container">You inspire students like Emir with your support. Learn more about scholarships and programs in need at <a href="http://utfoundation.org/give">utfoundation.org/give</a>.</p>
         </div>
         <div class="container">
-          <p>Emir Moore ’20 was the first student at The University of Toledo selected by the Congressional Black Caucus Foundation to participate in its internship program on Capitol Hill – and is now back on campus, pursuing his master of business administration.</p>
+          <p><strong>Emir Moore ’20</strong> was the first student at The University of Toledo selected by the Congressional Black Caucus Foundation to participate in its internship program on Capitol Hill – and is now back on campus, pursuing his master of business administration.</p>
 
   <p>Moore, who graduated with a bachelor’s degree in business management and marketing from the College of Business and Innovation, was one of 25 African-American students across the country who spent fall 2018 in Washington, D.C., immersed in the firsthand experience learning the intricacies of the federal legislative process.</p>
 
@@ -311,7 +316,7 @@ keyboard_arrow_right
       <button class="btn" type="button" data-toggle="collapse" data-target="#storySix" aria-expanded="true" aria-controls="storySix">
         Rocket Student-Athletes Take Competitive Spirit to the Classroom
       </button>
-      <span class="material-icons">
+      <span class="material-icons" data-toggle="collapse" data-target="#storySix">
 keyboard_arrow_right
 </span>
       </h3>
@@ -346,7 +351,7 @@ keyboard_arrow_right
     <button class="btn" type="button" data-toggle="collapse" data-target="#storySeven" aria-expanded="true" aria-controls="storySeven">
       UToledo Doctor of Pharmacy Grads Best in Country on Law Exam
     </button>
-    <span class="material-icons">
+    <span class="material-icons" data-toggle="collapse" data-target="#storySeven">
 keyboard_arrow_right
 </span>
     </h3>
@@ -460,12 +465,12 @@ alt="University of Toledo Foundation">
             <p>You help make these successes a reality. Thank you for your continued generosity and partnership in our shared vision for a better future.</p>
 
             <img class="img-fluid" src="images/brenda-sig.svg" alt="Brenda S. Lee">
-            <p>Brenda S. Lee, President</p>
-            <p>The University of Toledo Foundation</p>
+            <p class="ltrTitle"><strong>Brenda S. Lee, President</strong></p>
+            <p class="ltrTitle">The University of Toledo Foundation</p>
 
             <img class="img-fluid" src="images/mark-luetke-sig.svg" alt="Mark Leutke">
-            <p>Mark Luetke, Chair</p>
-            <p>The University of Toledo Foundation Board of Trustees</p>
+            <p class="ltrTitle"><strong>Mark Luetke, Chair</strong></p>
+            <p class="ltrTitle">The University of Toledo Foundation Board of Trustees</p>
           </section>
 
 
@@ -516,8 +521,8 @@ alt="University of Toledo Foundation">
 
 
 <img class="img-fluid" src="images/postel-sig.svg" alt="Gregory Postel">
-  <p>Gregory Postel, M.D.,</p>
-  <p> Interim President The University of Toledo</p>
+  <p class="ltrTitle"><strong>Gregory Postel, M.D.,</strong></p>
+  <p class="ltrTitle"> Interim President The University of Toledo</p>
 
           </section>
 

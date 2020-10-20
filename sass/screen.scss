@@ -16,7 +16,7 @@ body {
   overflow-x: hidden;
 }
 h1 {
-  font-size:32px;
+  font-size:35px;
   text-transform: uppercase;
   margin:2.56% 0;
   text-align: left;
@@ -201,16 +201,30 @@ section#yip.container-fluid {
   font-size:1rem;
   padding:1rem;
 }
+.azure {
+    background-color:$azure;
+}
 #yip p > em {
   color:white;
   font-size:.8em;
   display:block;
   margin-top:10px;
 }
+.yipDesc {
+  margin:0 auto !important;
+  min-height: inherit !important;
+  border:none !important;
+  padding:0 !important;
+}
+div.yipDesc p{
+  font-size:1.2rem;
+  color:white;
+}
 #yip h3 {
-  color:$midnight;
-  padding-bottom:1rem;
+  color:white;
   font-size:2rem;
+  padding:.5rem;
+  font-weight:$font-black;
 }
 #photo1 {
   background-image:url(../images/yip/centennial_mall.jpg);
@@ -220,10 +234,11 @@ section#yip.container-fluid {
   min-height:400px;
 }
 #photo2 {
-  //background-image:url(../images/yip/wedding_couple.jpg);
+  background-image:url(../images/yip/lord.jpg);
   background-size:cover;
   background-position:center 0;
   padding:2rem 1rem;
+  min-height:400px;
 }
 #photo3 {
   background-image:url(../images/yip/wedding_couple.jpg);
@@ -304,12 +319,16 @@ footer a {
 }
 .modal-header {
   background-color:$azure;
+  border:none;
 }
 #presltr div section:nth-child(1) button {
   border:1px $gold solid;
   background-color:transparent;
   font-size:24px;
   padding:5px 20px;
+}
+.ltrTitle {
+  margin:0 !important;
 }
 div.modal-body{
   padding:0;
