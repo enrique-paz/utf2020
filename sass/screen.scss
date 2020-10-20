@@ -13,7 +13,7 @@ body {
   background-color:white;
   width:100vw;
   height:100vh;
-  overflow-x: hidden;
+  //overflow-x: hidden;
 }
 h1 {
   font-size:35px;
@@ -118,7 +118,7 @@ main a:hover {
 }
 #links {
   text-align: right;
-      padding-right: 3.6rem;
+      padding-right: 1.8rem;
 }
 #links a {
   color:$gold;
@@ -238,7 +238,7 @@ div.yipDesc p{
   background-size:cover;
   background-position:center 0;
   padding:2rem 1rem;
-  min-height:400px; 
+  min-height:400px;
 }
 #photo3 {
   background-image:url(../images/yip/wedding_couple.jpg);
@@ -522,34 +522,39 @@ section.container-fluid {
   padding-right:0;
 }
 .container-fluid.storyOne {
-  background-image:url(../images/student-success.gif);
+  background-image:url(../images/student-success.jpg);
   background-size:cover;
   background-position:center;
+  transition:all .5s;
 }
 .container-fluid.storyTwo {
-  background-image:url(../images/rtr-fund.gif);
+  background-image:url(../images/rtr-fund.jpg);
   background-size:cover;
-  background-position:center;
+    transition:all .5s;
 }
 .container-fluid.storyThree {
   background-image:url(../images/tech-graduate.gif);
   background-size:cover;
   background-position:center;
+    transition:all .5s;
 }
 .container-fluid.storyFour {
-  background-image:url(../images/research-growth.gif);
+  background-image:url(../images/research-growth.jpg);
   background-size:cover;
-  background-position:center;
+background-position: center -140px;
+    transition:all .5s;
 }
 .container-fluid.storyFive {
   background-image:url(../images/emir-moore.gif);
   background-size:cover;
   background-position:0 center;
+    transition:all .5s;
 }
 .container-fluid.storySix {
   background-image:url(../images/athletics-gpa.gif);
   background-size:cover;
   background-position:center;
+    transition:all .5s;
 }
 button.navbar-toggler {
   outline:none;
@@ -577,6 +582,9 @@ button.navbar-toggler {
 
 #yip div {
     max-width: 100%;
+}
+.yipDesc {
+  flex-direction: column;
 }
 
 main section:nth-child(4) div.container {
@@ -608,7 +616,7 @@ footer {
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .container-fluid.storyTwo,.container-fluid.storyFive {
-    background-position:right;
+        background-position: center -90px;
   }
 }
 
