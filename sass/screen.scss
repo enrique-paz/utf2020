@@ -226,6 +226,9 @@ div.yipDesc p{
   padding:.5rem;
   font-weight:$font-black;
 }
+.yipBorder {
+  border-bottom:3px solid white !important;
+}
 #photo1 {
   background-image:url(../images/yip/centennial_mall.jpg);
   background-size:cover;
@@ -311,6 +314,9 @@ footer a {
   max-width:3%;
   height:auto;
   vertical-align: middle;
+  display:inline;
+}
+a#social {
   display:inline;
 }
 //letter modal stylesheet
@@ -533,9 +539,9 @@ section.container-fluid {
     transition:all .5s;
 }
 .container-fluid.storyThree {
-  background-image:url(../images/tech-graduate.gif);
+  background-image:url(../images/tech-graduate.jpg);
   background-size:cover;
-  background-position:center;
+  background-position:center -100px;
     transition:all .5s;
 }
 .container-fluid.storyFour {
@@ -545,15 +551,15 @@ background-position: center -140px;
     transition:all .5s;
 }
 .container-fluid.storyFive {
-  background-image:url(../images/emir-moore.gif);
+  background-image:url(../images/emir-moore.jpg);
   background-size:cover;
-  background-position:0 center;
+  background-position: 0 -180px;
     transition:all .5s;
 }
 .container-fluid.storySix {
-  background-image:url(../images/athletics-gpa.gif);
+  background-image:url(../images/athletics-gpa.jpg);
   background-size:cover;
-  background-position:center;
+  background-position:center -120px;
     transition:all .5s;
 }
 button.navbar-toggler {
@@ -591,9 +597,7 @@ main section:nth-child(4) div.container {
 .container-fluid.storyTwo {
     background-position: center right;
 }
-.container-fluid.storyFive {
-    background-position: right center;
-}
+
 footer h3 {
   margin:2rem 0;
 }
@@ -609,7 +613,7 @@ footer {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .container-fluid.storyTwo,.container-fluid.storyFive {
+  .container-fluid.storyTwo {
         background-position: center -90px;
   }
   #links {
