@@ -566,6 +566,10 @@ button.navbar-toggler {
   outline:none;
   border:0;
 }
+.navbar-toggler-icon img {
+  width:80%;
+  height:auto;
+}
 //Extra small devices
 @media (max-width: 575.98px) {
 
