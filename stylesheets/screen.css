@@ -834,74 +834,91 @@ button.navbar-toggler {
 
 @media (max-width: 575.98px) {
   /* line 566, ../sass/screen.scss */
-  #utfNav > ul {
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-    position: absolute;
-    z-index: 100;
-  }
-
-  /* line 574, ../sass/screen.scss */
   main section:nth-child(2) div div:nth-child(1), main section:nth-child(2) div div:nth-child(2), main section.container div.row div:nth-child(3) {
     max-width: 80%;
     margin: 0 auto 30px;
   }
 
-  /* line 579, ../sass/screen.scss */
+  /* line 571, ../sass/screen.scss */
   #title img {
     width: 50%;
   }
 
-  /* line 583, ../sass/screen.scss */
+  /* line 575, ../sass/screen.scss */
   #yip div {
     max-width: 100%;
   }
 
-  /* line 586, ../sass/screen.scss */
+  /* line 578, ../sass/screen.scss */
   .yipDesc {
     flex-direction: column;
   }
 
-  /* line 590, ../sass/screen.scss */
+  /* line 582, ../sass/screen.scss */
   main section:nth-child(4) div.container {
     padding: 40px 30px 60px;
   }
 
-  /* line 593, ../sass/screen.scss */
+  /* line 585, ../sass/screen.scss */
   #photo7 {
     background-position: center;
   }
 
-  /* line 596, ../sass/screen.scss */
+  /* line 588, ../sass/screen.scss */
   #photo8 {
     background-position: center;
   }
 
-  /* line 599, ../sass/screen.scss */
+  /* line 591, ../sass/screen.scss */
   .container-fluid.storyTwo {
     background-position: center right;
   }
 
-  /* line 602, ../sass/screen.scss */
+  /* line 594, ../sass/screen.scss */
   .container-fluid.storyFive {
     background-position: right center;
   }
 
-  /* line 605, ../sass/screen.scss */
+  /* line 597, ../sass/screen.scss */
   footer h3 {
     margin: 2rem 0;
   }
 
-  /* line 608, ../sass/screen.scss */
+  /* line 600, ../sass/screen.scss */
   footer {
     text-align: center;
     padding: 2.5rem 4rem;
   }
+
+  /* line 604, ../sass/screen.scss */
+  #links {
+    display: none;
+  }
 }
 @media (min-width: 576px) {
-  /* line 618, ../sass/screen.scss */
+  /* line 612, ../sass/screen.scss */
   .container-fluid.storyTwo, .container-fluid.storyFive {
     background-position: center -90px;
+  }
+
+  /* line 615, ../sass/screen.scss */
+  #links {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  /* line 627, ../sass/screen.scss */
+  .navbar-expand-xl .navbar-toggler {
+    display: none;
+  }
+
+  /* line 630, ../sass/screen.scss */
+  #linksMobile {
+    display: none;
+  }
+
+  /* line 633, ../sass/screen.scss */
+  #links {
+    display: block;
   }
 }

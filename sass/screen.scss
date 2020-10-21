@@ -563,14 +563,6 @@ button.navbar-toggler {
 //Extra small devices
 @media (max-width: 575.98px) {
 
-  #utfNav > ul {
-    flex-direction:column;
-    align-items: flex-end;
-    width: 100%;
-    position: absolute;
-    z-index: 100;
-  }
-
   main section:nth-child(2) div div:nth-child(1),main section:nth-child(2) div div:nth-child(2),main section.container div.row div:nth-child(3) {
       max-width: 80%;
       margin: 0 auto 30px;
@@ -609,7 +601,9 @@ footer {
   text-align: center;
   padding:2.5rem 4rem;
 }
-
+#links {
+  display: none;
+}
  }
 
 
@@ -617,6 +611,9 @@ footer {
 @media (min-width: 576px) {
   .container-fluid.storyTwo,.container-fluid.storyFive {
         background-position: center -90px;
+  }
+  #links {
+    display: none;
   }
 }
 
@@ -627,7 +624,15 @@ footer {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+  .navbar-expand-xl .navbar-toggler {
+      display: none;
+  }
+  #linksMobile {
+    display:none;
+  }
+  #links {
+    display:block;
+  }
  }
 
 // Extra large devices (large desktops, 1200px and up)
