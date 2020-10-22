@@ -148,9 +148,9 @@ main div:nth-child(1) {
 
 /* line 57, ../sass/bu.scss */
 main div:nth-child(2) button {
-  background-color: #AFD5E9;
+  background-color: #3BB2F1;
   color: white;
-  border: #AFD5E9 solid 1px;
+  border: #3BB2F1 solid 1px;
   padding: 10px 30px;
   margin-top: 20px;
 }
@@ -159,7 +159,7 @@ main div:nth-child(2) button {
 main div:nth-child(2) button:nth-child(3) {
   background-color: transparent;
   color: #FFD200;
-  border: #AFD5E9 solid 1px;
+  border: #3BB2F1 solid 1px;
 }
 
 /* line 69, ../sass/bu.scss */
@@ -251,14 +251,14 @@ section:nth-child(2) div:nth-child(4) h3 {
 section:nth-child(2) div:nth-child(4) button {
   background-color: transparent;
   color: #003E7E;
-  border: #AFD5E9 solid 1px;
+  border: #3BB2F1 solid 1px;
   padding: 10px 30px;
   margin-top: 20px;
 }
 
 /* line 131, ../sass/bu.scss */
 section:nth-child(4) {
-  background-color: #AFD5E9;
+  background-color: #3BB2F1;
   max-width: none;
   color: #003E7E;
   font-size: 22px;
@@ -420,7 +420,7 @@ a[name="financials"] {
 
 /* line 248, ../sass/bu.scss */
 #presltr div section:nth-child(1) {
-  background-color: #AFD5E9;
+  background-color: #3BB2F1;
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: flex-end;

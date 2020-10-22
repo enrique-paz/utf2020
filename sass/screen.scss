@@ -37,9 +37,10 @@ h3 {
   font-size:40px;
 }
 h4 {
-  color:$drkgray;
+  color:white;
   font-size:1.6rem;
   margin:20px 0;
+  font-weight: $font-black;
 }
 strong {
   font-weight:$font-black;
@@ -195,7 +196,7 @@ section#yip.container-fluid {
   margin:0;
 }
 #yip p {
-  background-color:$azure;
+  background-color:$blue;
   color:$midnight;
   font-size:1rem;
   padding:1rem;
@@ -208,6 +209,9 @@ section#yip.container-fluid {
   font-size:.8em;
   display:block;
   margin-top:10px;
+}
+#yip .yipDesc > p {
+  background-color:$azure;
 }
 .yipDesc {
   margin:0 auto !important;
