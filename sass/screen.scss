@@ -37,9 +37,8 @@ h3 {
   font-size:40px;
 }
 h4 {
-  color:white;
-  font-size:22px;
-  font-weight:$font-black;
+  color:$drkgray;
+  font-size:1.6rem;
   margin:20px 0;
 }
 strong {
@@ -205,7 +204,7 @@ section#yip.container-fluid {
     background-color:$azure;
 }
 #yip p > em {
-  color:white;
+  color:$drkgray;
   font-size:.8em;
   display:block;
   margin-top:10px;
@@ -221,10 +220,9 @@ div.yipDesc p{
   color:white;
 }
 #yip h3 {
-  color:white;
+  color:$drkgray;
   font-size:2rem;
   padding:.5rem;
-  font-weight:$font-black;
 }
 .yipBorder {
   border-bottom:3px solid white !important;
@@ -490,6 +488,9 @@ p#legal {
   margin-top:10px;
 }
 //stories
+#stories a {
+  color:$midnight;
+}
 #stories div.container-fluid {
   min-height:300px;
 }
@@ -506,7 +507,7 @@ p#legal {
 #stories .container button {
   color:white;
   text-align:left;
-  font-size:1.5rem;
+  font-size:1.3rem;
   line-height:1.5rem;
   outline:none;
   border:0;
