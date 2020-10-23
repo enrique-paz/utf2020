@@ -589,14 +589,6 @@ button.navbar-toggler {
       max-width: 80%;
       margin: 0 auto 30px;
   }
-  h1 {
-    font-size:1.8rem;
-  }
-
-  #title img {
-    width: 50%;
-}
-
 #yip div {
     max-width: 100%;
 }
@@ -637,6 +629,7 @@ footer {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+
   .container-fluid.storyTwo {
         background-position: center -90px;
   }
