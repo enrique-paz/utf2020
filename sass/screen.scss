@@ -205,10 +205,11 @@ section#yip.container-fluid {
     background-color:$azure;
 }
 #yip p > em {
-  color:$drkgray;
+  color:$midnight;
   font-size:.8em;
   display:block;
   margin-top:10px;
+  font-style: normal;
 }
 #yip .yipDesc > p {
   background-color:$azure;
@@ -546,25 +547,30 @@ section.container-fluid {
 .container-fluid.storyThree {
   background-image:url(../images/tech-graduate.jpg);
   background-size:cover;
-  background-position:center -100px;
     transition:all .5s;
 }
 .container-fluid.storyFour {
   background-image:url(../images/research-growth.jpg);
   background-size:cover;
-background-position: center -140px;
+background-position: center;
     transition:all .5s;
 }
 .container-fluid.storyFive {
   background-image:url(../images/emir-moore.jpg);
   background-size:cover;
-  background-position: 0 -180px;
+  background-position:center;
     transition:all .5s;
 }
 .container-fluid.storySix {
   background-image:url(../images/athletics-gpa.jpg);
   background-size:cover;
-  background-position:center -120px;
+  background-position:center;
+    transition:all .5s;
+}
+.container-fluid.storySeven{
+  background-image:url(../images/ut-pharmacy.jpg);
+  background-size:cover;
+  background-position:center;
     transition:all .5s;
 }
 button.navbar-toggler {
@@ -650,5 +656,13 @@ footer {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
+  .container-fluid.storySix {
+    background-position:center -100px;
+  }
+  .container-fluid.storyThree {
+    background-position:center -100px;
+  }
+  .container-fluid.storyFour {
+  background-position: center -120px;
+  }
  }
