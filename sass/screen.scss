@@ -311,6 +311,9 @@ footer a {
   text-decoration: none;
   color:$midnight;
 }
+footer a:hover {
+  color:$medium;
+}
 #social img {
   max-width:3%;
   height:auto;
