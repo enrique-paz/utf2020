@@ -590,8 +590,11 @@ button.navbar-toggler {
 }
 //Extra small devices
 @media (max-width: 575.98px) {
-  #title img, .utlogo {
+  #title img {
     width: 50%;
+}
+.navbar-brand {
+  width:55%;
 }
 
   main section:nth-child(2) div div:nth-child(1),main section:nth-child(2) div div:nth-child(2),main section.container div.row div:nth-child(3) {
