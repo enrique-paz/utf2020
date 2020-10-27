@@ -82,7 +82,9 @@ button.navbar-toggler span {
   color:white;
   font-size:2.2rem;
 }
-
+.utlogo {
+  width:100%;
+}
 //main section styles
 #title {
   margin-top:8rem;
@@ -111,6 +113,8 @@ main section:nth-child(2){
 main a {
   text-decoration:none;
   color:white;
+  font-size:1.3rem;
+  padding-left: 20px;
 }
 main a:hover {
   color:$gold;
