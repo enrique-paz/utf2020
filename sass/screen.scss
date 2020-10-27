@@ -631,14 +631,15 @@ main section:nth-child(4) div.container {
 #photo8 {
     background-position:center;
 }
-.container-fluid.storyTwo {
+.container-fluid.storyTwo, .container-fluid.storyThree, .container-fluid.storyFive {
     background-position: center right;
 }
 .container-fluid.storyFour {
 background-position: center;
 }
-.container-fluid.storyFive {
-background-position: center;
+
+.container-fluid.storySeven{
+  background-position: -100px center;
 }
 footer h3 {
   margin:2rem 0;

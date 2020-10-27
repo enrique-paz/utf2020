@@ -947,7 +947,7 @@ button.navbar-toggler {
   }
 
   /* line 634, ../sass/screen.scss */
-  .container-fluid.storyTwo {
+  .container-fluid.storyTwo, .container-fluid.storyThree, .container-fluid.storyFive {
     background-position: center right;
   }
 
@@ -956,66 +956,66 @@ button.navbar-toggler {
     background-position: center;
   }
 
-  /* line 640, ../sass/screen.scss */
-  .container-fluid.storyFive {
-    background-position: center;
+  /* line 641, ../sass/screen.scss */
+  .container-fluid.storySeven {
+    background-position: -100px center;
   }
 
-  /* line 643, ../sass/screen.scss */
+  /* line 644, ../sass/screen.scss */
   footer h3 {
     margin: 2rem 0;
   }
 
-  /* line 646, ../sass/screen.scss */
+  /* line 647, ../sass/screen.scss */
   footer {
     text-align: center;
     padding: 2.5rem 4rem;
   }
 
-  /* line 650, ../sass/screen.scss */
+  /* line 651, ../sass/screen.scss */
   #links {
     display: none;
   }
 }
 @media (min-width: 576px) {
-  /* line 659, ../sass/screen.scss */
+  /* line 660, ../sass/screen.scss */
   .container-fluid.storyTwo {
     background-position: center -90px;
   }
 
-  /* line 662, ../sass/screen.scss */
+  /* line 663, ../sass/screen.scss */
   #links {
     display: none;
   }
 }
 @media (min-width: 992px) {
-  /* line 674, ../sass/screen.scss */
+  /* line 675, ../sass/screen.scss */
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
 
-  /* line 677, ../sass/screen.scss */
+  /* line 678, ../sass/screen.scss */
   #linksMobile {
     display: none;
   }
 
-  /* line 680, ../sass/screen.scss */
+  /* line 681, ../sass/screen.scss */
   #links {
     display: block;
   }
 }
 @media (min-width: 1200px) {
-  /* line 687, ../sass/screen.scss */
+  /* line 688, ../sass/screen.scss */
   .container-fluid.storySix {
     background-position: center -100px;
   }
 
-  /* line 690, ../sass/screen.scss */
+  /* line 691, ../sass/screen.scss */
   .container-fluid.storyThree {
     background-position: center -100px;
   }
 
-  /* line 693, ../sass/screen.scss */
+  /* line 694, ../sass/screen.scss */
   .container-fluid.storyFour {
     background-position: center -120px;
   }
