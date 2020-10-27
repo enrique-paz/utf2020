@@ -591,13 +591,19 @@ button.navbar-toggler {
 //Extra small devices
 @media (max-width: 575.98px) {
   #title img {
-    width: 50%;
+    width: 70%;
+}
+#title {
+  margin-top: 14rem;
+}
+.btn {
+  font-size: 1.5rem;
 }
 .navbar-brand {
   width:55%;
 }
 h1 {
-  font-size:1.25rem;
+  font-size:1.75rem;
 }
 footer nav {
   line-height:1.6rem;

@@ -882,125 +882,135 @@ button.navbar-toggler {
 @media (max-width: 575.98px) {
   /* line 593, ../sass/screen.scss */
   #title img {
-    width: 50%;
+    width: 70%;
   }
 
   /* line 596, ../sass/screen.scss */
+  #title {
+    margin-top: 14rem;
+  }
+
+  /* line 599, ../sass/screen.scss */
+  .btn {
+    font-size: 1.5rem;
+  }
+
+  /* line 602, ../sass/screen.scss */
   .navbar-brand {
     width: 55%;
   }
 
-  /* line 599, ../sass/screen.scss */
+  /* line 605, ../sass/screen.scss */
   h1 {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
 
-  /* line 602, ../sass/screen.scss */
+  /* line 608, ../sass/screen.scss */
   footer nav {
     line-height: 1.6rem;
   }
 
-  /* line 605, ../sass/screen.scss */
+  /* line 611, ../sass/screen.scss */
   main section:nth-child(2) div div:nth-child(1), main section:nth-child(2) div div:nth-child(2), main section.container div.row div:nth-child(3) {
     max-width: 80%;
     margin: 0 auto 30px;
   }
 
-  /* line 609, ../sass/screen.scss */
+  /* line 615, ../sass/screen.scss */
   #yip div {
     max-width: 100%;
   }
 
-  /* line 612, ../sass/screen.scss */
+  /* line 618, ../sass/screen.scss */
   .yipDesc {
     flex-direction: column;
   }
 
-  /* line 616, ../sass/screen.scss */
+  /* line 622, ../sass/screen.scss */
   main section:nth-child(4) div.container {
     padding: 40px 30px 60px;
   }
 
-  /* line 619, ../sass/screen.scss */
+  /* line 625, ../sass/screen.scss */
   #photo7 {
     background-position: center;
   }
 
-  /* line 622, ../sass/screen.scss */
+  /* line 628, ../sass/screen.scss */
   #photo8 {
     background-position: center;
   }
 
-  /* line 625, ../sass/screen.scss */
+  /* line 631, ../sass/screen.scss */
   .container-fluid.storyTwo {
     background-position: center right;
   }
 
-  /* line 628, ../sass/screen.scss */
+  /* line 634, ../sass/screen.scss */
   .container-fluid.storyFour {
     background-position: center;
   }
 
-  /* line 631, ../sass/screen.scss */
+  /* line 637, ../sass/screen.scss */
   .container-fluid.storyFive {
     background-position: center;
   }
 
-  /* line 634, ../sass/screen.scss */
+  /* line 640, ../sass/screen.scss */
   footer h3 {
     margin: 2rem 0;
   }
 
-  /* line 637, ../sass/screen.scss */
+  /* line 643, ../sass/screen.scss */
   footer {
     text-align: center;
     padding: 2.5rem 4rem;
   }
 
-  /* line 641, ../sass/screen.scss */
+  /* line 647, ../sass/screen.scss */
   #links {
     display: none;
   }
 }
 @media (min-width: 576px) {
-  /* line 650, ../sass/screen.scss */
+  /* line 656, ../sass/screen.scss */
   .container-fluid.storyTwo {
     background-position: center -90px;
   }
 
-  /* line 653, ../sass/screen.scss */
+  /* line 659, ../sass/screen.scss */
   #links {
     display: none;
   }
 }
 @media (min-width: 992px) {
-  /* line 665, ../sass/screen.scss */
+  /* line 671, ../sass/screen.scss */
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
 
-  /* line 668, ../sass/screen.scss */
+  /* line 674, ../sass/screen.scss */
   #linksMobile {
     display: none;
   }
 
-  /* line 671, ../sass/screen.scss */
+  /* line 677, ../sass/screen.scss */
   #links {
     display: block;
   }
 }
 @media (min-width: 1200px) {
-  /* line 678, ../sass/screen.scss */
+  /* line 684, ../sass/screen.scss */
   .container-fluid.storySix {
     background-position: center -100px;
   }
 
-  /* line 681, ../sass/screen.scss */
+  /* line 687, ../sass/screen.scss */
   .container-fluid.storyThree {
     background-position: center -100px;
   }
 
-  /* line 684, ../sass/screen.scss */
+  /* line 690, ../sass/screen.scss */
   .container-fluid.storyFour {
     background-position: center -120px;
   }
