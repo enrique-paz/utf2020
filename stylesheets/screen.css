@@ -881,7 +881,7 @@ button.navbar-toggler {
 
 @media (max-width: 575.98px) {
   /* line 593, ../sass/screen.scss */
-  #title img {
+  #title img, .utlogo {
     width: 50%;
   }
 
