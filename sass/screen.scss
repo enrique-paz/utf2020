@@ -602,6 +602,12 @@ button.navbar-toggler {
 .navbar-brand {
   width:55%;
 }
+#financials h2 {
+      margin: 1rem 0 0 0;
+}
+#financials button {
+    margin: .5rem;
+}
 h1 {
   font-size:1.75rem;
 }
@@ -656,6 +662,31 @@ footer {
 }
 #links {
   display: none;
+}
+div.finHeader div.col-5 {
+  max-width:none;
+  flex:1;
+}
+#financials p {
+    margin-bottom:1rem;
+}
+#financials .nav {
+  flex-wrap:nowrap;
+}
+#finTotal {
+  max-width: none;
+  flex: 1;
+  margin-top:1.2rem;
+}
+#finTotal p {
+   margin: 1rem 0;
+}
+.nav-tabs .nav-link {
+    font-size: 100%;
+}
+#myTabContent .col-4 {
+  flex: none;
+    max-width: none;
 }
  }
 
