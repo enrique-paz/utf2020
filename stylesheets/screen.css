@@ -887,7 +887,7 @@ button.navbar-toggler {
 
   /* line 596, ../sass/screen.scss */
   #title {
-    margin-top: 21rem;
+    margin-top: 12rem;
   }
 
   /* line 599, ../sass/screen.scss */
@@ -912,7 +912,7 @@ button.navbar-toggler {
 
   /* line 611, ../sass/screen.scss */
   h1 {
-    font-size: 1.75rem;
+    font-size: 2.1rem;
   }
 
   /* line 614, ../sass/screen.scss */
@@ -922,7 +922,7 @@ button.navbar-toggler {
 
   /* line 617, ../sass/screen.scss */
   main section:nth-child(1) {
-    height: 100vh;
+    height: 60vh;
   }
 
   /* line 620, ../sass/screen.scss */
@@ -942,139 +942,144 @@ button.navbar-toggler {
   }
 
   /* line 630, ../sass/screen.scss */
+  main section:nth-child(2) {
+    padding-top: 50px;
+  }
+
+  /* line 633, ../sass/screen.scss */
   #yip div {
     max-width: 100%;
   }
 
-  /* line 633, ../sass/screen.scss */
+  /* line 636, ../sass/screen.scss */
   .yipDesc {
     flex-direction: column;
   }
 
-  /* line 637, ../sass/screen.scss */
+  /* line 640, ../sass/screen.scss */
   main section:nth-child(4) div.container {
     padding: 40px 30px 60px;
   }
 
-  /* line 640, ../sass/screen.scss */
+  /* line 643, ../sass/screen.scss */
   #photo7 {
     background-position: center;
   }
 
-  /* line 643, ../sass/screen.scss */
+  /* line 646, ../sass/screen.scss */
   #photo8 {
     background-position: center;
   }
 
-  /* line 646, ../sass/screen.scss */
+  /* line 649, ../sass/screen.scss */
   .container-fluid.storyTwo, .container-fluid.storyThree, .container-fluid.storyFive {
     background-position: center right;
   }
 
-  /* line 649, ../sass/screen.scss */
+  /* line 652, ../sass/screen.scss */
   .container-fluid.storyFour {
     background-position: center;
   }
 
-  /* line 653, ../sass/screen.scss */
+  /* line 656, ../sass/screen.scss */
   .container-fluid.storySeven {
     background-position: -100px center;
   }
 
-  /* line 656, ../sass/screen.scss */
+  /* line 659, ../sass/screen.scss */
   footer h3 {
     margin: 2rem 0;
   }
 
-  /* line 659, ../sass/screen.scss */
+  /* line 662, ../sass/screen.scss */
   footer {
     text-align: center;
     padding: 2.5rem 4rem;
   }
 
-  /* line 663, ../sass/screen.scss */
+  /* line 666, ../sass/screen.scss */
   #links {
     display: none;
   }
 
-  /* line 666, ../sass/screen.scss */
+  /* line 669, ../sass/screen.scss */
   div.finHeader div.col-5 {
     max-width: none;
     flex: 1;
   }
 
-  /* line 670, ../sass/screen.scss */
+  /* line 673, ../sass/screen.scss */
   #financials p {
     margin-bottom: 1rem;
   }
 
-  /* line 673, ../sass/screen.scss */
+  /* line 676, ../sass/screen.scss */
   #financials .nav {
     flex-wrap: nowrap;
   }
 
-  /* line 676, ../sass/screen.scss */
+  /* line 679, ../sass/screen.scss */
   #finTotal {
     max-width: none;
     flex: 1;
     margin-top: 1.2rem;
   }
 
-  /* line 681, ../sass/screen.scss */
+  /* line 684, ../sass/screen.scss */
   #finTotal p {
     margin: 1rem 0;
   }
 
-  /* line 684, ../sass/screen.scss */
+  /* line 687, ../sass/screen.scss */
   .nav-tabs .nav-link {
     font-size: 100%;
   }
 
-  /* line 687, ../sass/screen.scss */
+  /* line 690, ../sass/screen.scss */
   #myTabContent .col-4 {
     flex: none;
     max-width: none;
   }
 }
 @media (min-width: 576px) {
-  /* line 697, ../sass/screen.scss */
+  /* line 700, ../sass/screen.scss */
   .container-fluid.storyTwo {
     background-position: center -90px;
   }
 
-  /* line 700, ../sass/screen.scss */
+  /* line 703, ../sass/screen.scss */
   #links {
     display: none;
   }
 }
 @media (min-width: 992px) {
-  /* line 712, ../sass/screen.scss */
+  /* line 715, ../sass/screen.scss */
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
 
-  /* line 715, ../sass/screen.scss */
+  /* line 718, ../sass/screen.scss */
   #linksMobile {
     display: none;
   }
 
-  /* line 718, ../sass/screen.scss */
+  /* line 721, ../sass/screen.scss */
   #links {
     display: block;
   }
 }
 @media (min-width: 1200px) {
-  /* line 725, ../sass/screen.scss */
+  /* line 728, ../sass/screen.scss */
   .container-fluid.storySix {
     background-position: center -100px;
   }
 
-  /* line 728, ../sass/screen.scss */
+  /* line 731, ../sass/screen.scss */
   .container-fluid.storyThree {
     background-position: center -100px;
   }
 
-  /* line 731, ../sass/screen.scss */
+  /* line 734, ../sass/screen.scss */
   .container-fluid.storyFour {
     background-position: center -120px;
   }
