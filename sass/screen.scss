@@ -30,7 +30,7 @@ h2 {
   color:$midnight;
   font-weight:$font-black;
   text-transform: uppercase;
-  margin:20px 0;
+  margin:50px 0 20px;
 }
 h3 {
   color:$midnight;
@@ -90,6 +90,10 @@ button.navbar-toggler span {
 .utlogo {
   width:100%;
 }
+.navbar-brand a {
+  display: inline-block;
+  min-width:300px;
+}
 //main section styles
 #title {
   margin-top:8rem;
@@ -141,7 +145,7 @@ main {
 position:absolute;
 }
 main section:nth-child(2) div div:nth-child(1) {
-  border-top:$midnight 2px solid;
+  border-top:$midnight 3px solid;
   @include box-shadow($medium 1px 0px 3px);
   padding-top:20px;
   margin-right:15px;
@@ -154,7 +158,7 @@ main section:nth-child(2) div div:nth-child(1) a {
   display:block;
 }
 main section:nth-child(2) div div:nth-child(2) {
-  border-top:$gold 2px solid;
+  border-top:$gold 3px solid;
   @include box-shadow($medium 1px 0px 3px);
   padding-top:20px;
   margin-right:40px;
@@ -163,15 +167,11 @@ main section:nth-child(2) div div:nth-child(2) {
 main section:nth-child(2) div div:nth-child(2) a {
   color:$midnight;
 }
-main section:nth-child(4) div.container {
+main section:nth-child(3) div.container {
   color:$midnight;
   font-size:22px;
   line-height: 36px;
   padding:40px 0 60px;
-}
-main section:nth-child(4)
-{
-    background-color:$azure;
 }
 main section.container div.row div:nth-child(3) h3 {
   margin-bottom:20px;
@@ -190,13 +190,27 @@ main section.container div.row div:nth-child(3) {
   color:$midnight;
 }
 //year in photos
+.carousel-inner{
+  width:100%;
+  max-height:500px !important;
+}
+.carousel-caption {
+    width: 20%;
+    top:15%;
+    bottom:auto;
+    left:auto;
+}
+.carousel-item {
+  background-color:$azure;
+  float:left;
+}
+
 section#yip.container-fluid {
   padding-right: 0;
 }
 #yip {
   padding-top:1.5rem;
   //background-color:#CAD9E1;
-  min-height:unset;
   margin:0;
 }
 #yip div {
@@ -207,13 +221,17 @@ section#yip.container-fluid {
   margin:0;
 }
 #yip p {
-  background-color:$blue;
   color:$midnight;
   font-size:1rem;
-  padding:1rem;
 }
-.azure {
-    background-color:$azure;
+.carousel-caption {
+  background-color:rgba(255,255,255,.2);
+  font-size:1.3rem;
+  line-height: 1.6rem;
+  padding:1rem;
+  color:$midnight;
+  border-top:1.5px solid white;
+  border-bottom:1.5px solid white;
 }
 #yip p > em {
   color:$midnight;
@@ -221,52 +239,30 @@ section#yip.container-fluid {
   font-style: normal;
 }
 #yip .yipDesc > p {
-  background-color:$azure;
+  background-color:white;
 }
 .yipDesc {
-  margin:0 auto !important;
+  margin:0 auto 30px !important;
   min-height: inherit !important;
   border:none !important;
-  padding:0 !important;
+  padding:0 1rem !important;
+}
+.yipDesc h3 {
+  font-weight: $font-black;
+  text-transform: uppercase;
 }
 div.yipDesc p{
   font-size:1.2rem;
-  color:white;
 }
 #yip h3 {
-  color:$midnight;
-  font-size:2rem;
-  padding:.5rem;
+  font-weight:$font-black;
+  text-transform: uppercase;
 }
 .yipBorder {
   border-bottom:3px solid white !important;
 }
-#photo1 {
-  background-image:url(../images/yip/centennial_mall.jpg);
-  background-size:cover;
-  background-position:center 0;
-  padding:2rem 1rem;
-  min-height:400px;
-}
-#photo2 {
-  background-image:url(../images/yip/lord.jpg);
-  background-size:cover;
-  background-position:center 0;
-  padding:2rem 1rem;
-  min-height:400px;
-}
-#photo3 {
-  background-image:url(../images/yip/wedding_couple.jpg);
-  background-size:cover;
-  background-position:center 0;
-  padding:2rem 1rem;
-}
-#photo4 {
-  background-image:url(../images/yip/clothesline.jpg);
-  background-size:cover;
-  background-position:center 0;
-  padding:2rem 1rem;
-}
+
+
 #photo5 {
  background-image:url(../images/yip/parade.jpg);
   background-size:cover;
@@ -509,7 +505,7 @@ p#legal {
   color:$midnight;
 }
 #stories div.container-fluid {
-  min-height:400px;
+  min-height:450px;
   border-bottom:1.5rem solid white;
 }
 #stories .container h3 {
@@ -539,7 +535,7 @@ p#legal {
 div.container.call-out {
   background-color: $azure;
   min-height:initial !important;
-  padding:30px 0;
+  padding:5px 0;
   font-size: 1.2rem;
 }
 div.container.call-out+div {
@@ -548,6 +544,9 @@ div.container.call-out+div {
 section.container-fluid {
   padding-left:0;
   padding-right:0;
+}
+.collapse {
+  padding-bottom:3rem;
 }
 .container-fluid.storyOne {
   background-image:url(../images/student-success.jpg);
