@@ -82,6 +82,11 @@ button.navbar-toggler span {
   color:white;
   font-size:2.2rem;
 }
+.btn-ltr {
+  font-size: 1rem;
+    text-align: left;
+    margin: .5rem 0;
+}
 .utlogo {
   width:100%;
 }
@@ -504,7 +509,8 @@ p#legal {
   color:$midnight;
 }
 #stories div.container-fluid {
-  min-height:300px;
+  min-height:400px;
+  border-bottom:1.5rem solid white;
 }
 #stories .container h3 {
   background-color:$midnight;
@@ -530,11 +536,14 @@ p#legal {
   font-size:1.2rem;
   color:$midnight;
 }
-div.container-fluid.call-out {
+div.container.call-out {
   background-color: $azure;
   min-height:initial !important;
   padding:30px 0;
   font-size: 1.2rem;
+}
+div.container.call-out+div {
+  padding-bottom:4rem;
 }
 section.container-fluid {
   padding-left:0;
