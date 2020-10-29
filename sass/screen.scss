@@ -192,7 +192,7 @@ main section.container div.row div:nth-child(3) {
 //year in photos
 .carousel-inner{
   width:100%;
- max-height:400px !important;
+ max-height:450px !important;
 }
 .carousel-caption {
     width: 20%;
@@ -204,7 +204,7 @@ main section.container div.row div:nth-child(3) {
   background-color:$azure;
 }
 .carousel .carousel-item {
-  height: 500px;
+  height: 550px;
 }
 
 .carousel-item img {
@@ -212,7 +212,7 @@ main section.container div.row div:nth-child(3) {
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 500px;
+    min-height: 550px;
 }
 
 section#yip.container-fluid {
