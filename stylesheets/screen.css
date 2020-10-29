@@ -1060,46 +1060,51 @@ button.navbar-toggler {
     flex: none;
     max-width: none;
   }
+
+  /* line 709, ../sass/screen.scss */
+  .carousel-item img {
+    width: 100% !important;
+  }
 }
 @media (min-width: 576px) {
-  /* line 715, ../sass/screen.scss */
+  /* line 718, ../sass/screen.scss */
   .container-fluid.storyTwo {
     background-position: center -90px;
   }
 
-  /* line 718, ../sass/screen.scss */
+  /* line 721, ../sass/screen.scss */
   #links {
     display: none;
   }
 }
 @media (min-width: 992px) {
-  /* line 730, ../sass/screen.scss */
+  /* line 733, ../sass/screen.scss */
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
 
-  /* line 733, ../sass/screen.scss */
+  /* line 736, ../sass/screen.scss */
   #linksMobile {
     display: none;
   }
 
-  /* line 736, ../sass/screen.scss */
+  /* line 739, ../sass/screen.scss */
   #links {
     display: block;
   }
 }
 @media (min-width: 1200px) {
-  /* line 743, ../sass/screen.scss */
+  /* line 746, ../sass/screen.scss */
   .container-fluid.storySix {
     background-position: center -100px;
   }
 
-  /* line 746, ../sass/screen.scss */
+  /* line 749, ../sass/screen.scss */
   .container-fluid.storyThree {
     background-position: center -100px;
   }
 
-  /* line 749, ../sass/screen.scss */
+  /* line 752, ../sass/screen.scss */
   .container-fluid.storyFour {
     background-position: center -120px;
   }
