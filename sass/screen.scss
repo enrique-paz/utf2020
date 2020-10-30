@@ -13,6 +13,7 @@ body {
   background-color:white;
   width:100vw;
   height:100vh;
+  line-height: 1.4rem;
   //overflow-x: hidden;
 }
 h1 {
@@ -35,12 +36,15 @@ h2 {
 h3 {
   color:$midnight;
   font-size:40px;
+  line-height: 2rem;
+  margin-bottom: 1rem;
 }
 h4 {
   color:white;
   font-size:1.6rem;
   margin:20px 0;
   font-weight: $font-black;
+  line-height: 2rem;
 }
 strong {
   font-weight:$font-black;
@@ -383,6 +387,7 @@ div.modal-body section:nth-child(2) p {
   font-size:48px;
   text-transform:uppercase;
   margin-bottom:60px;
+  line-height: 2.4rem;
 }
 #presltr img,#utpresltr img {
   display:block;
@@ -526,7 +531,8 @@ p#legal {
 #stories .container h3 {
   background-color:$midnight;
   height:100px;
-  width:34.375rem
+  width:34.375rem;
+  margin-bottom:0;
 }
 #stories .container h3 span {
   color:white;
@@ -610,6 +616,7 @@ button.navbar-toggler {
 .navbar-toggler-icon img {
   width:80%;
   height:auto;
+  margin-top:1rem;
 }
 //Extra small devices
 @media (max-width: 575.98px) {
@@ -685,6 +692,19 @@ footer {
 }
 #links {
   display: none;
+}
+#linksMobile a {
+  color: $gold;
+      text-align: center;
+      margin-top: 20px;
+      display: block;
+      padding-left: 0;
+}
+#mobileUT {
+  max-width:50%;
+  height:auto;
+  display:block;
+  margin:2rem auto 0;
 }
 div.finHeader div.col-5 {
   max-width:none;
