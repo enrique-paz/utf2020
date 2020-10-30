@@ -214,7 +214,12 @@ main section.container div.row div:nth-child(3) {
     left: 0;
     min-height: 550px;
 }
-
+.azure {
+  background-color: $ltgray;
+  padding-top:2rem;
+  color:$midnight;
+  border-top:6px solid white;
+}
 section#yip.container-fluid {
   padding-right: 0;
 }

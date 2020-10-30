@@ -135,6 +135,11 @@
   </a>
 </div>
 </section>
+<div class="container-fluid azure yipBorder">
+  <div class="container yipDesc d-flex justify-content-start align-items-center">
+    <p class="col">Follow the University of  Toledo on Instagram at <strong>uoftoledo</strong> <a id="social" href="https://www.instagram.com/uoftoledo/"><img src="images/instagram.svg" alt="Instagram"></a> and <strong>utoledoalumni</strong> <a id="social" href="https://www.instagram.com/utoledoalumni/"> <img src="images/instagram.svg" alt="Instagram"></a></p>
+  </div>
+</div>
           <!--year in photos
           <section id="yip" class="container-fluid">
 
@@ -690,7 +695,7 @@ your gifts modal-->
 
 
 
-            <a href="#" id="assets-bar.svg">Assets 2011 – 2020</a>
+            <a href="#" id="assets-bar.svg" style="font-weight:bold">Assets 2011 – 2020</a>
             <a href="#" id="asset-alloc-pie.svg">Asset Allocation</a>
             <a href="#" id="annualized-investment-bar.svg">Annualized Investment Performance June 30, 2020</a>
           </div>
@@ -704,7 +709,7 @@ your gifts modal-->
 
         <div class="row">
           <div id="give" class="col-4 d-flex flex-column">
-            <a href="#" id="designation-pie.svg">Designation of Fund Balances</a>
+            <a href="#" id="designation-pie.svg" style="font-weight:bold">Designation of Fund Balances</a>
             <a href="#" id="contributions.svg">Contributions 2011 – 2020</a>
           </div>
           <div class="col">
@@ -721,7 +726,7 @@ your gifts modal-->
 
         <div class="row">
           <div id="supporting" class="col-4 d-flex flex-column">
-            <a href="#" id="foundation-support.svg">Foundation Support Provided to UToledo 2011 – 2020</a>
+            <a href="#" id="foundation-support.svg" style="font-weight:bold">Foundation Support Provided to UToledo 2011 – 2020</a>
             <a href="#" id="support-pie.svg">Designation of Support to UToledo – 2020</a>
           </div>
           <div class="col">
@@ -761,14 +766,22 @@ $(window).scroll(function (event) {
 //charts
 $("#assets > a").click(function(){
   var id = $(this).attr('id');
+  $("#assets > a").css('font-weight','normal');
+  $(this).css('font-weight','bold');
   $('#assetsChart').attr('src','images/charts/'+id);
 })
+
 $("#give > a").click(function(){
   var id = $(this).attr('id');
+  $("#give > a").css('font-weight','normal');
+  $(this).css('font-weight','bold');
   $('#givingChart').attr('src','images/charts/'+id);
 })
+
 $("#supporting > a").click(function(){
   var id = $(this).attr('id');
+  $("#supporting > a").css('font-weight','normal');
+  $(this).css('font-weight','bold');
   $('#supportChart').attr('src','images/charts/'+id);
 })
 //accordion
