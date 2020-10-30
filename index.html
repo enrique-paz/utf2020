@@ -609,7 +609,7 @@ alt="University of Toledo Foundation">
 </div>
 <!--UT Pres Letter modal-->
 <!--Your gifts modal-->
-<div class="modal" tabindex="-3" id="yourGifts">
+<!--div class="modal" tabindex="-3" id="yourGifts">
   <div class=".modal-dialog-scrollable container">
     <div class="modal-content">
       <div class="modal-header justify-content-end">
@@ -642,7 +642,7 @@ alt="University of Toledo Foundation">
     </div>
   </div>
 </div>
-<!--your gifts modal-->
+your gifts modal-->
 
 <div id="financials" class="container-fluid">
 <div class="container">
@@ -686,16 +686,16 @@ alt="University of Toledo Foundation">
       <div class="tab-pane fade show active" id="assets" role="tabpanel" aria-labelledby="assets-tab">
 
         <div class="row">
-          <div class="col-4 d-flex flex-column ">
+          <div id="assets" class="col-4 d-flex flex-column ">
 
 
 
-            <a href="#">Assets 2011 – 2020</a>
-            <a href="#">Asset Allocation</a>
-            <a href="#">Annualized Investment Performance June 30, 2020</a>
+            <a href="#" id="assets-bar.svg">Assets 2011 – 2020</a>
+            <a href="#" id="asset-alloc-pie.svg">Asset Allocation</a>
+            <a href="#" id="annualized-investment-bar.svg">Annualized Investment Performance June 30, 2020</a>
           </div>
           <div class="col">
-            <img src="images/charts/assets-bar.svg" alt="Designation of Fund Balances">
+            <img id="assetsChart" src="images/charts/assets-bar.svg" alt="Assets Charts">
           </div>
         </div>
 
@@ -703,12 +703,12 @@ alt="University of Toledo Foundation">
       <div class="tab-pane fade" id="giving" role="tabpanel" aria-labelledby="giving-tab">
 
         <div class="row">
-          <div class="col-4 d-flex flex-column">
-            <a href="#">Designation of Fund Balances</a>
-            <a href="#">Contributions 2011 – 2020</a>
+          <div id="give" class="col-4 d-flex flex-column">
+            <a href="#" id="designation-pie.svg">Designation of Fund Balances</a>
+            <a href="#" id="contributions.svg">Contributions 2011 – 2020</a>
           </div>
           <div class="col">
-            <img src="images/charts/designation-pie.svg" alt="Designation of Fund Balances">
+            <img id="givingChart" src="images/charts/designation-pie.svg" alt="Giving Charts">
           </div>
         </div>
 
@@ -720,12 +720,12 @@ alt="University of Toledo Foundation">
 
 
         <div class="row">
-          <div class="col-4 d-flex flex-column">
-            <a href="#">Foundation Support Provided to UToledo 2011 – 2020</a>
-            <a href="#">Designation of Support to UToledo – 2020</a>
+          <div id="supporting" class="col-4 d-flex flex-column">
+            <a href="#" id="foundation-support.svg">Foundation Support Provided to UToledo 2011 – 2020</a>
+            <a href="#" id="support-pie.svg">Designation of Support to UToledo – 2020</a>
           </div>
           <div class="col">
-            <img src="images/charts/foundation-support.svg" alt="Designation of Fund Balances">
+            <img id="supportChart" src="images/charts/foundation-support.svg" alt="Support Charts">
           </div>
         </div>
 
@@ -758,6 +758,19 @@ $(window).scroll(function (event) {
     }
 });
 */
+//charts
+$("#assets > a").click(function(){
+  var id = $(this).attr('id');
+  $('#assetsChart').attr('src','images/charts/'+id);
+})
+$("#give > a").click(function(){
+  var id = $(this).attr('id');
+  $('#givingChart').attr('src','images/charts/'+id);
+})
+$("#supporting > a").click(function(){
+  var id = $(this).attr('id');
+  $('#supportChart').attr('src','images/charts/'+id);
+})
 //accordion
 $(".collapse").on('show.bs.collapse', function(){
         $(this).prev('div').find('.material-icons').text('keyboard_arrow_down').css('color','#FFD200');
