@@ -468,7 +468,7 @@ img[alt="Mark Leutke"],img[alt="Brenda S. Lee"],img[alt="Gregory Postel"]{
 #financials h2 {
   color:white;
   font-size:3rem;
-  margin:0 0 3rem 0;
+  margin:1rem 0 3rem 0;
 }
 #financials h2 span {
   color:$gold;
@@ -531,7 +531,7 @@ p#legal {
 }
 #stories .container h3 {
   background-color:$midnight;
-  height:100px;
+  min-height:100px;
   width:34.375rem;
   margin-bottom:0;
 }
@@ -633,6 +633,21 @@ button.navbar-toggler {
 .navbar-brand {
   width:55%;
 }
+#presltr h4, #utpresltr h4 {
+    font-size: 2rem;
+  }
+#presChair, #utpres  {
+@include flex(100%);
+    max-width: 100%;
+  }
+  div.modal-body .col-3 {
+    @include flex(50%);
+    max-width:50%;
+  }
+  img[alt="Mark Leutke"], img[alt="Brenda S. Lee"], img[alt="Gregory Postel"] {
+    max-width: none;
+    height: auto;
+}
 #financials h2 {
       margin: 1rem 0 0 0;
 }
@@ -677,12 +692,18 @@ main section:nth-child(2) div div:nth-child(2) p {
 .container-fluid.storyTwo, .container-fluid.storyThree, .container-fluid.storyFive {
     background-position: center right;
 }
+.container-fluid.storyTwo, .container-fluid.storyThree, .container-fluid.storyFive {
+    background-position: center right;
+}
+ .container-fluid.storyFive {
+    background-position-x: -670px;
+}
 .container-fluid.storyFour {
 background-position: center;
 }
 
 .container-fluid.storySeven{
-  background-position: -100px center;
+  background-position: -150px center;
 }
 footer h3 {
   margin:2rem 0;
