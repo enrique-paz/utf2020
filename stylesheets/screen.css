@@ -1305,4 +1305,9 @@ button.navbar-toggler {
     max-width: 75%;
     text-align: left;
   }
+
+  /* line 887, ../sass/screen.scss */
+  .tab-pane a {
+    font-size: 1rem;
+  }
 }
