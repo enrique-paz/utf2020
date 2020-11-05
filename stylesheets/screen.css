@@ -1226,79 +1226,86 @@ button.navbar-toggler {
 }
 @media (min-width: 992px) {
   /* line 832, ../sass/screen.scss */
+  div.modal-body .col-3 {
+    -webkit-flex: 25%;
+    flex: 25%;
+    max-width: none;
+  }
+
+  /* line 836, ../sass/screen.scss */
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
 
-  /* line 835, ../sass/screen.scss */
+  /* line 839, ../sass/screen.scss */
   #linksMobile {
     display: none;
   }
 
-  /* line 838, ../sass/screen.scss */
+  /* line 842, ../sass/screen.scss */
   #links {
     display: block;
   }
 
-  /* line 841, ../sass/screen.scss */
+  /* line 845, ../sass/screen.scss */
   #title img {
     width: 20%;
     height: auto;
   }
 }
 @media (min-width: 1200px) {
-  /* line 849, ../sass/screen.scss */
+  /* line 853, ../sass/screen.scss */
   #title img {
     width: 30%;
     height: auto;
   }
 
-  /* line 853, ../sass/screen.scss */
+  /* line 857, ../sass/screen.scss */
   .container {
     max-width: 1140px;
   }
 
-  /* line 858, ../sass/screen.scss */
+  /* line 862, ../sass/screen.scss */
   .container-fluid.storySix {
     background-position: center;
   }
 
-  /* line 861, ../sass/screen.scss */
+  /* line 865, ../sass/screen.scss */
   .container-fluid.storyThree {
     background-position: center -100px;
   }
 
-  /* line 864, ../sass/screen.scss */
+  /* line 868, ../sass/screen.scss */
   .container-fluid.storyFour {
     background-position: center -120px;
   }
 
-  /* line 867, ../sass/screen.scss */
+  /* line 871, ../sass/screen.scss */
   .col-sm-3 {
     -webkit-flex: 25%;
     flex: 25%;
     max-width: 25%;
   }
 
-  /* line 871, ../sass/screen.scss */
+  /* line 875, ../sass/screen.scss */
   .container-fluid.storyTwo {
     background-position: center -90px;
   }
 
-  /* line 874, ../sass/screen.scss */
+  /* line 878, ../sass/screen.scss */
   div.container.call-out {
     width: 100%;
     max-width: none;
   }
 
-  /* line 878, ../sass/screen.scss */
+  /* line 882, ../sass/screen.scss */
   footer .col-sm-3 {
     -webkit-flex: 25%;
     flex: 25%;
     max-width: 25%;
   }
 
-  /* line 882, ../sass/screen.scss */
+  /* line 886, ../sass/screen.scss */
   footer .col-sm-9 {
     -webkit-flex: 75%;
     flex: 75%;
@@ -1306,7 +1313,7 @@ button.navbar-toggler {
     text-align: left;
   }
 
-  /* line 887, ../sass/screen.scss */
+  /* line 891, ../sass/screen.scss */
   .tab-pane a {
     font-size: 1rem;
   }

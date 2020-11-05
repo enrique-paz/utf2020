@@ -829,6 +829,10 @@ div.modal-body .col-3 {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  div.modal-body .col-3 {
+    @include flex(25%);
+       max-width:none;
+  }
   .navbar-expand-xl .navbar-toggler {
       display: none;
   }
