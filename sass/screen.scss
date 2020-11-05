@@ -17,10 +17,10 @@ body {
   //overflow-x: hidden;
 }
 h1 {
-  font-size:35px;
-  text-transform: uppercase;
-  margin:2.56% 0;
-  text-align: left;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    margin: 1.5% 0;
+    text-align: left;
 }
 h1 span {
   color:$gold;
@@ -197,7 +197,7 @@ main section.container div.row div:nth-child(3) {
 //year in photos
 .carousel-inner{
   width:100%;
- max-height:80vh !important;
+ max-height:700px !important;
 }
 .carousel-caption {
     width: 20%;
@@ -209,7 +209,7 @@ main section.container div.row div:nth-child(3) {
   background-color:$azure;
 }
 .carousel .carousel-item {
-  height: 550px;
+  height: 700px;
 }
 
 .carousel-item img {
@@ -217,7 +217,7 @@ main section.container div.row div:nth-child(3) {
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 550px;
+    min-height: 700px;
 }
 .azure {
   background-color: $ltgray;
@@ -768,6 +768,58 @@ div.finHeader div.col-5 {
   #links {
     display: none;
   }
+  #title img {
+    width: 50%;
+    height: auto;
+}
+.col-sm-3 {
+    @include flex(40%);
+    max-width: 40%;
+}
+#mobileUT {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 2rem auto 0;
+}
+#linksMobile a {
+    color: #FFD200;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    padding-left: 0;
+}
+.container-fluid.storyTwo {
+    background-position: center;
+}
+.container {
+  width:90%;
+  max-width:90%;
+  margin:0 auto;
+}
+footer img {
+  display:block;
+  margin:0 auto;
+}
+footer h3 {
+    margin-top: 1rem;
+}
+footer {
+    text-align: center;
+}
+footer .col-sm-3 {
+  @include flex(100%);
+    max-width: 100%;
+}
+footer .col-sm-9 {
+    @include flex(100%);
+    max-width: 100%;
+}
+div.modal-body .col-3 {
+    @include flex(50%);
+    max-width: 50%;
+}
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -786,12 +838,25 @@ div.finHeader div.col-5 {
   #links {
     display:block;
   }
+  #title img {
+    width: 20%;
+    height: auto;
+}
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+  #title img {
+    width: 30%;
+    height: auto;
+}
+  .container {
+
+    max-width: 1140px;
+
+}
   .container-fluid.storySix {
-    background-position:center -100px;
+    background-position:center;
   }
   .container-fluid.storyThree {
     background-position:center -100px;
@@ -799,4 +864,24 @@ div.finHeader div.col-5 {
   .container-fluid.storyFour {
   background-position: center -120px;
   }
+  .col-sm-3 {
+    @include flex(25%);
+    max-width: 25%;
+}
+.container-fluid.storyTwo {
+    background-position: center -90px;
+}
+div.container.call-out {
+  width: 100%;
+    max-width: none;
+}
+footer .col-sm-3 {
+  @include flex(25%);
+    max-width: 25%;
+}
+footer .col-sm-9 {
+  @include flex(75%);
+    max-width: 75%;
+    text-align: left;
+}
  }

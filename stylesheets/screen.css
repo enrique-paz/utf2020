@@ -85,9 +85,9 @@ body {
 
 /* line 19, ../sass/screen.scss */
 h1 {
-  font-size: 35px;
+  font-size: 2.25rem;
   text-transform: uppercase;
-  margin: 2.56% 0;
+  margin: 1.5% 0;
   text-align: left;
 }
 
@@ -344,7 +344,7 @@ main section.container div.row div:nth-child(3) {
 /* line 198, ../sass/screen.scss */
 .carousel-inner {
   width: 100%;
-  max-height: 80vh !important;
+  max-height: 700px !important;
 }
 
 /* line 202, ../sass/screen.scss */
@@ -362,7 +362,7 @@ main section.container div.row div:nth-child(3) {
 
 /* line 211, ../sass/screen.scss */
 .carousel .carousel-item {
-  height: 550px;
+  height: 700px;
 }
 
 /* line 215, ../sass/screen.scss */
@@ -371,7 +371,7 @@ main section.container div.row div:nth-child(3) {
   object-fit: cover;
   top: 0;
   left: 0;
-  min-height: 550px;
+  min-height: 700px;
 }
 
 /* line 222, ../sass/screen.scss */
@@ -1144,36 +1144,165 @@ button.navbar-toggler {
   #links {
     display: none;
   }
+
+  /* line 771, ../sass/screen.scss */
+  #title img {
+    width: 50%;
+    height: auto;
+  }
+
+  /* line 775, ../sass/screen.scss */
+  .col-sm-3 {
+    -webkit-flex: 40%;
+    flex: 40%;
+    max-width: 40%;
+  }
+
+  /* line 779, ../sass/screen.scss */
+  #mobileUT {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 2rem auto 0;
+  }
+
+  /* line 785, ../sass/screen.scss */
+  #linksMobile a {
+    color: #FFD200;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    padding-left: 0;
+  }
+
+  /* line 792, ../sass/screen.scss */
+  .container-fluid.storyTwo {
+    background-position: center;
+  }
+
+  /* line 795, ../sass/screen.scss */
+  .container {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  /* line 800, ../sass/screen.scss */
+  footer img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 804, ../sass/screen.scss */
+  footer h3 {
+    margin-top: 1rem;
+  }
+
+  /* line 807, ../sass/screen.scss */
+  footer {
+    text-align: center;
+  }
+
+  /* line 810, ../sass/screen.scss */
+  footer .col-sm-3 {
+    -webkit-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  /* line 814, ../sass/screen.scss */
+  footer .col-sm-9 {
+    -webkit-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  /* line 818, ../sass/screen.scss */
+  div.modal-body .col-3 {
+    -webkit-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 @media (min-width: 992px) {
-  /* line 780, ../sass/screen.scss */
+  /* line 832, ../sass/screen.scss */
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
 
-  /* line 783, ../sass/screen.scss */
+  /* line 835, ../sass/screen.scss */
   #linksMobile {
     display: none;
   }
 
-  /* line 786, ../sass/screen.scss */
+  /* line 838, ../sass/screen.scss */
   #links {
     display: block;
   }
+
+  /* line 841, ../sass/screen.scss */
+  #title img {
+    width: 20%;
+    height: auto;
+  }
 }
 @media (min-width: 1200px) {
-  /* line 793, ../sass/screen.scss */
-  .container-fluid.storySix {
-    background-position: center -100px;
+  /* line 849, ../sass/screen.scss */
+  #title img {
+    width: 30%;
+    height: auto;
   }
 
-  /* line 796, ../sass/screen.scss */
+  /* line 853, ../sass/screen.scss */
+  .container {
+    max-width: 1140px;
+  }
+
+  /* line 858, ../sass/screen.scss */
+  .container-fluid.storySix {
+    background-position: center;
+  }
+
+  /* line 861, ../sass/screen.scss */
   .container-fluid.storyThree {
     background-position: center -100px;
   }
 
-  /* line 799, ../sass/screen.scss */
+  /* line 864, ../sass/screen.scss */
   .container-fluid.storyFour {
     background-position: center -120px;
+  }
+
+  /* line 867, ../sass/screen.scss */
+  .col-sm-3 {
+    -webkit-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+  }
+
+  /* line 871, ../sass/screen.scss */
+  .container-fluid.storyTwo {
+    background-position: center -90px;
+  }
+
+  /* line 874, ../sass/screen.scss */
+  div.container.call-out {
+    width: 100%;
+    max-width: none;
+  }
+
+  /* line 878, ../sass/screen.scss */
+  footer .col-sm-3 {
+    -webkit-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+  }
+
+  /* line 882, ../sass/screen.scss */
+  footer .col-sm-9 {
+    -webkit-flex: 75%;
+    flex: 75%;
+    max-width: 75%;
+    text-align: left;
   }
 }
