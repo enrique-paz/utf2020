@@ -768,22 +768,22 @@ $(window).scroll(function (event) {
 //charts
 $("#assets > a").click(function(){
   var id = $(this).attr('id');
-  $("#assets > a").css('font-weight','normal');
-  $(this).css('font-weight','bold');
+  $("#assets > a").css({'color':'#737571','font-weight':'normal'});
+  $(this).css({'color':'#003E7E','font-weight':'bold'});
   $('#assetsChart').attr('src','images/charts/'+id);
 })
 
 $("#give > a").click(function(){
   var id = $(this).attr('id');
-  $("#give > a").css('font-weight','normal');
-  $(this).css('font-weight','bold');
+  $("#give > a").css({'color':'#737571','font-weight':'normal'});
+  $(this).css({'color':'#003E7E','font-weight':'bold'});
   $('#givingChart').attr('src','images/charts/'+id);
 })
 
 $("#supporting > a").click(function(){
   var id = $(this).attr('id');
-  $("#supporting > a").css('font-weight','normal');
-  $(this).css('font-weight','bold');
+  $("#supporting > a").css({'color':'#737571','font-weight':'normal'});
+  $(this).css({'color':'#003E7E','font-weight':'bold'});
   $('#supportChart').attr('src','images/charts/'+id);
 })
 //accordion

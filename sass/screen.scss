@@ -509,14 +509,16 @@ p#legal {
   font-size:.8rem;
   line-height: 1rem;
   margin:inherit;
+  padding:1rem 0;
 }
 .tab-pane a {
   color:$medium;
   text-decoration: none;
   padding:.5rem 0;
+  font-size:1.2rem;
 }
 .tab-pane div {
-  padding:1rem;
+  padding:2rem 1rem;
 }
 #myTab {
   margin-top:10px;
@@ -547,6 +549,7 @@ p#legal {
   line-height:1.5rem;
   outline:none;
   border:0;
+  padding-bottom: .75rem;
 }
 #stories .container p {
   margin:20px 0;
@@ -619,6 +622,10 @@ button.navbar-toggler {
   height:auto;
   margin-top:1rem;
 }
+.tab-content img {
+  max-width:87%;
+}
+
 //Extra small devices
 @media (max-width: 575.98px) {
   #title img {
@@ -865,9 +872,7 @@ div.modal-body .col-3 {
   .container-fluid.storyThree {
     background-position:center -100px;
   }
-  .container-fluid.storyFour {
-  background-position: center -120px;
-  }
+
   .col-sm-3 {
     @include flex(25%);
     max-width: 25%;
@@ -888,7 +893,5 @@ footer .col-sm-9 {
     max-width: 75%;
     text-align: left;
 }
-.tab-pane a {
-  font-size:1rem;
-}
+
  }
