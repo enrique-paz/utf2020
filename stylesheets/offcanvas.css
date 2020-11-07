@@ -7,7 +7,7 @@ body {
   padding-top: 56px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   #utfNav > ul {
     flex-direction:column;
     width: 100%;
