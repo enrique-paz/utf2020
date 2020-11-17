@@ -590,6 +590,9 @@ button.navbar-toggler {
   margin-top: 12rem;
   padding-left:2rem;
 }
+.btn {
+    font-size: 1.2rem;
+}
 .utlogo {
     width: 68%;
 }
@@ -608,7 +611,7 @@ button.navbar-toggler {
     max-width:50%;
   }
   img[alt="Mark Leutke"], img[alt="Brenda S. Lee"], img[alt="Gregory Postel"] {
-    max-width: none;
+    max-width: 70%;
     height: auto;
 }
 #financials h2 {
@@ -630,7 +633,7 @@ main section:nth-child(2) div div:nth-child(1) a {
     font-size: 1.5rem;
 }
 main section:nth-child(2) div div:nth-child(2) p {
-  font-size:1.5rem;
+  font-size:1.2rem;
   line-height: 2rem;
 }
   main section:nth-child(2) div div:nth-child(1),main section:nth-child(2) div div:nth-child(2),main section.container div.row div:nth-child(3) {
@@ -663,11 +666,14 @@ main section:nth-child(2) div div:nth-child(2) p {
     background-position-x: -670px;
 }
 .container-fluid.storyFour {
-background-position: center;
+background-position: -450px;
 }
 
-.container-fluid.storySeven{
-  background-position: -150px center;
+.container-fluid.storySeven {
+    background-position: -250px center;
+}
+.container-fluid.storySix {
+    background-position: -190px;
 }
 footer h3 {
   margin:2rem 0;
@@ -722,6 +728,9 @@ div.finHeader div.col-5 {
 }
 .tab-content img {
     max-width: 100%;
+}
+div.modal-body section:nth-child(2) {
+    padding: 40px 15px;
 }
  }
 
