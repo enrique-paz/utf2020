@@ -616,6 +616,7 @@ button.navbar-toggler {
 }
 #financials h2 {
       margin: 1rem 0 0 0;
+      font-size:200%;
 }
 #financials button {
     margin: .5rem;
@@ -703,10 +704,11 @@ div.finHeader div.col-5 {
   flex:1;
 }
 #financials p {
-    margin-bottom:1rem;
+    margin:0;
 }
 #financials .nav {
-  flex-wrap:nowrap;
+  @include flex-wrap(nowrap);
+  @include flex-direction(column);
 }
 #finTotal {
   max-width: none;
@@ -717,7 +719,7 @@ div.finHeader div.col-5 {
    margin: 1rem 0;
 }
 .nav-tabs .nav-link {
-    font-size: 100%;
+    font-size: 120%;
 }
 #myTabContent .col-4 {
   flex: none;
