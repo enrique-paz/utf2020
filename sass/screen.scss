@@ -278,49 +278,6 @@ div.yipDesc p{
   border-bottom:3px solid white !important;
 }
 
-
-#photo5 {
- background-image:url(../images/yip/parade.jpg);
-  background-size:cover;
-  background-position:center;
-  padding:2rem 1rem;
-}
-#photo6 {
-  background-image:url(../images/yip/fall.jpg);
-  background-size:cover;
-  background-position:bottom;
-  padding:2rem 1rem;
-  min-height:500px;
-}
-#photo7 {
-  background-image:url(../images/yip/jazmine.jpg);
-  background-size:cover;
-  background-position:bottom;
-  padding:2rem 1rem;
-
-}
-#photo8 {
-  background-image:url(../images/yip/cap_toss.jpg);
-  background-size:cover;
-  background-position:0px -175px;
-  padding:2rem 1rem;
-
-}
-#photo9 {
-  background-image:url(../images/yip/chalk.jpg);
-  background-size:cover;
-  background-position:bottom left;
-  padding:2rem 1rem;
-min-height:400px;
-}
-#photo10 {
-  background-image:url(../images/yip/awad.jpg);
-  background-size:cover;
-  background-position:bottom;
-  padding:2rem 1rem;
-  min-height:400px;
-}
-
 //footer stylesheet
 footer {
   background-color:$gold;
@@ -578,7 +535,7 @@ section.container-fluid {
 .container-fluid.storyTwo {
   background-image:url(../images/rtr-fund.jpg);
   background-size:cover;
-    transition:all .5s;
+  transition:all .5s;
 }
 .container-fluid.storyThree {
   background-image:url(../images/tech-graduate.jpg);
@@ -627,14 +584,14 @@ button.navbar-toggler {
 //Extra small devices
 @media (max-width: 575.98px) {
   #title img {
-    width:270px;
+    width:200px;
 }
 #title {
   margin-top: 12rem;
   padding-left:2rem;
 }
 .utlogo {
-    width: 88%;
+    width: 68%;
 }
 .navbar-brand {
   width:55%;
@@ -661,7 +618,7 @@ button.navbar-toggler {
     margin: .5rem;
 }
 h1 {
-  font-size:1.8rem;
+  font-size:130%;
 }
 footer nav {
   line-height:1.6rem;
